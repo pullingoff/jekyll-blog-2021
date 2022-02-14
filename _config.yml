@@ -23,6 +23,9 @@ collections:
   resource:
     output: true
     permalink: /resources/:path/
+  resume:
+    output: true
+    permalink: /resume/:path/
 
 # Build settings
 markdown: kramdown
