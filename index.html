@@ -15,7 +15,7 @@ nav-class: home
 <div class="wrapper">
 
 <div class="home-news-listing">
-<h2>News</h2>
+<h2>🥗 최근 글</h2>
 {% for post in site.posts limit:3 %}
 <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 <p><span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>{{ post.excerpt }}</p>
@@ -31,7 +31,7 @@ nav-class: home
 <section class="home-case-listing cf">
 <div class="wrapper">
 
-<h2>Latest case study</h2>
+<h2>🚀 프로젝트</h2>
 
 {% assign items = site.case | sort: 'date' %}
 {% for case in site.case limit:1 %}
@@ -55,7 +55,7 @@ nav-class: home
 
 <section class="cf">
 <div class="wrapper">
-<h2>Twitter</h2>
+<h2>🎭 일리헤의 이중생활</h2>
 <div id="tweetWrap" class="tweetwrap"></div>
 <script type="text/javascript" src="/js/mytweets.js"></script>
 </div>
