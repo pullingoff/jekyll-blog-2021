@@ -1,7 +1,7 @@
 ---
 layout: news
 title: News
-description: Some news
+description: Click!
 keywords: news
 nav-class: news
 permalink: /news/
