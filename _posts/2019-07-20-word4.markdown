@@ -1,0 +1,44 @@
+---
+title: "Try! Flutter Banner Design"
+layout: post
+date: 2019-07-20 01:20
+bannerpic: /assets/images/markdown.jpg
+headerImage: false
+projects : true
+tag:
+- project
+- Flutter
+- Google
+- Design
+- Festa
+category: project
+author: Hailey Park
+description: Try! Flutter Banner Design
+---
+
+These are size-adjusted versions for effective upload.
+<br>
+
+
+**Event information: <a href="https://festa.io/events/373">Click!</a>**
+<br>
+
+
+
+
+![](http://hailey99.github.io/assets/images/tf0.jpg)
+**Festa Banner / 1600x900 px, RGB/ Photoshop and Illustrator**
+<br>
+
+
+
+![Main Banner](http://hailey99.github.io/assets/images/tf1.jpg)
+**Main Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator**
+<br>
+
+
+
+![](http://hailey99.github.io/assets/images/tf2.jpg)
+**Location Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator**
+
+<br>

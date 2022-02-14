@@ -1,0 +1,24 @@
+---
+title: "One day One Commit"
+layout: post
+date: 2019-09-17 11:00
+bannerpic: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- blog
+- github
+- Programming
+- 프로그래밍
+- IT
+
+category: blog
+author: Hailey Park
+description:
+---
+
+1. 이미지는 그냥 구글링 해서 url 넣는게 편함 —> 아님 그냥 내 http하고 깃헙페이지 링크 쓰고 … 폴더이름부터 다시 하면 됨!!!
+2. markdown 으로 써놓은 글 위에 div 같은 html 씌워버리면 아예 다 없어짐
+3. R 코드 gists {gist }로 하면 안 올라가져서 그냥 src script로 함
+4. 이미지 넣고 사진 사이즈 조절하려면 css 써야됨
+5. 포스팅할때 날짜 달라도 순서는 업로드순서대로 올려야함!!
+6. 가운데정렬 할 필요없이 아예 양쪽 폭 줄이고 글 다 마크다운으로 함

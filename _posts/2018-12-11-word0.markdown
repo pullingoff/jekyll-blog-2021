@@ -1,0 +1,81 @@
+---
+title: "[R] 낱말 프로젝트 00: Introduction"
+layout: post
+date: 2018-12-11 12:20
+bannerpic: /assets/images/markdown.jpg
+headerImage: false
+projects : true
+tag:
+- project
+- 낱말프로젝트
+category: project
+author: Hailey Park
+description: Word Project #0
+---
+
+  혹시 당신.. MBTI 결과가 안 바뀌었을 걸 알면서도 MBTI 사이트 링크가 눈에 보일 때마다 해보시나요?
+
+
+  남한테 듣는 자신의 첫인상 이야기가 그렇게 재미있나요?
+
+
+  무신론자, 유사과학을 믿지 않으면서도 괜히 사주 검색해보려고 부모님께 탄생시간을 물어본 적이 있나요?^^
+
+
+![samehere](http://hailey99.github.io/assets/images/samehere.jpeg){: width=230 height=180}
+
+
+축하합니다
+
+그렇다면 당신은
+
+**캐.해 중독자** 입니다.
+
+(캐.해: 캐릭터 해석 / 팬들이 좋아하는 셀러브리티의 성격, 성향, 취향을 추측 및 해석하는 것)
+
+
+좋아하는 연예인 또는 영화나 드라마 속 등장인물의 캐해를 하는 것도 재미있지만 뭐니뭐니해도 제일 재미있는 캐.해는 내 캐.해 당하기 ㅎ_ㅎ
+
+​
+
+인기가요 샌드위치도 아니고 순전히 캐.해 당하고 싶어서 아이돌 데뷔를 잠깐(3초) 고민했으나 그것은 아무래도 무리라는 생각에
+
+​
+
+데이터 통계, 분석 프로그램 **R** 을 이용해서
+
+꽤나 과학적으로
+
+꽤나 신빙성 있게^^
+
+약 반년간 **알라딘 보관함에 넣어온 책 리스트(Book Wish List)** 를 분석해보기로 했습니다.
+
+​
+
+독립적이면서도 무언가로부터 끊임없이 영향을 받아온 개인을 100퍼센트 꿰뚫어볼 수는 없지만 좋아하는 책, 영화 또는 음악이 나에 대해 더 잘 알게 해주는 건 분명하니까요.
+
+​
+
+이번 낱말 프로젝트에서 다뤄볼 것은
+
+{% highlight raw %}
+1. 북 위시리스트 속 책 제목에 가장 자주 등장하는 단어
+
+2. 북 위시리스트에 가장 많이 있는 책 시리즈
+
+3. 북 위시리스트에 가장 많이 있는 책 출판사
+
+4. 북 위시리스트에 가장 많이 있는 책 분야
+{% endhighlight %}
+​
+입니다.
+
+ ​![meditatingfrog](http://hailey99.github.io/assets/images/frog.png "Meditating frog"){: width=100 height=80 }
+
+ 그럼 이만
+
+ ​
+
+첫 데이터 분석 프로젝트 아자아자 화이팅!~~!~!
+
+ ​
