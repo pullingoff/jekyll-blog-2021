@@ -14,14 +14,27 @@ layout: default
 </div>
 
 <div class="page-listing">
-{% for post in site.posts limit:10 %}
-<div class="listing"> 
-<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Read more: {{ post.title }}">{{ post.title }}</a></h2>
-<p><span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>{{ post.excerpt }}</p>
-</div>
-{% endfor %}
-</div>
+   {% for post in site.posts %}
+    <div class="listing blogListing"> 
+        <div class="imgWrapper">
+            {% if post.thumbnail %}
+                <img src="{{ post.thumbnail }}">
+            {% else %}
+                <div style="padding:12px;text-align: center;">
+                    <span role="img" style="font-size: 20px;">🌿🌮</span>
+                </div>
+            {% endif %}
+        </div>
+        <h2 style="padding-right: 5px;">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Read more: {{ post.title }}">{{ post.title }}</a>
+        </h2>
+        <!-- <p>
+            <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>
+        </p> -->
+    </div>
+    {% endfor %}
 
+</div>
 </article>
 
 </div><!-- end wrapper -->
