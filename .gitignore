@@ -1,3 +1,10 @@
+## MacOS
+*.DS_Store
+.bundle
+.sass-cache
+node_modules
+package.json
+
 _site
 .sass-cache
 .jekyll-metadata
@@ -9,4 +16,3 @@ _drafts
 *.css.map
 notes.md
 .lock
-_site
