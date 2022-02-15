@@ -34,6 +34,7 @@ summary {
 
 h1, h2, h3, h4 {
   font-weight: bold;
+  font-family: $font-bold
 }
 
 h1 {
@@ -60,11 +61,12 @@ h3 {font-size: 1.2rem;}
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: $font-thin;
 }
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: $font-semi-bold;
   //color: #000;
 
 }
