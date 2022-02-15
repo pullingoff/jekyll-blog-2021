@@ -5,7 +5,7 @@
 nav {
 	clear: both;
 	float: left;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid $theme1;
 	margin-bottom: 2rem;
 	width: 100%;
 ul {
@@ -15,8 +15,8 @@ ul {
 	margin-bottom: 1.5rem;
 	li {
 		display: inline-block;
-		margin-left: 1.5rem;
-		a, a:visited {color: lighten($color-main, 20%);}
+		margin-left: 1.5rem; 
+		a:visited {color: lighten($theme2, 20%);}
 		a { transition: color 0.2s ease;font-size:16px;}
 		a:hover {color: $theme1;}
 	}

@@ -48,19 +48,17 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
-  margin: 1rem 0;
-  padding-top: 1rem;
-  line-height: 1.2;
-  border-top: 1px solid $color-grey-light;
-  color: $color-grey;
+  // margin: 1rem 0;
+  // padding-top: 1rem;
+  // line-height: 1.2;
+  // border-top: 1px solid $color-grey-light;
+  // color: $color-grey;
 }
 
 h3 {font-size: 1.2rem;}
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: $font-thin;
+  font-family: $font-light;
 }
 
 b,
@@ -76,6 +74,7 @@ p strong, li strong {
 }
 
 ul, ol, article {
+  list-style: none;
   margin-bottom: 1rem;
 }
 
@@ -201,6 +200,8 @@ figure {
 }
 
 .page-content {
+  position: relative;
+  top: -35px;
   h1, h2, h3, h4, p, ul, ol {
     text-align: left;
   }

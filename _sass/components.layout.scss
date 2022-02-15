@@ -9,10 +9,100 @@ body {
 .wrapper {
   max-width: 55rem;
   margin: 0 auto;
+  padding: 10px;
 }
 
+.blogListing {
+  display:flex;
+}
+
+.imgWrapper {
+  width: 20vw;
+  min-width: 20vw;
+  max-width: 20vw;
+    margin: 5px 20px;
+}
+.cateWrapper {
+  border-top: 1px solid $theme1;
+  margin-top: 1rem;
+  padding: 10px;
+}
+#homeSiteDescription {
+  line-height: 160%;
+  font-size: 110%;
+  padding-top: 30px;
+  cursor: pointer;
+}
 h1.post-title {
   font-family: $font-black;
   font-size:30px;
   text-align: left;
+}
+
+
+#resume-Intro {
+  width:100%;display:flex;flex-flow: column nowrap;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#resume-Intro .pageTitle{
+  border-top: none;
+  // padding:0;
+  // margin:0;
+  color:black;
+}
+
+.resume-Job {
+  font-size:16px;margin:3px 2px;
+}
+
+.resume-Email {
+  font-size:15px;font-family:$font-thin;margin:6px 0;
+}
+
+.resume-Explain {
+  font-size: 15px;
+margin: 10px 0 20px;line-height: 20px;font-family: $font-medium;
+}
+
+.resume-SectionHeader {
+  width: 100%;
+margin: 50px 0 10px;font-size: 22px;
+color: #696969;font-family:$font-extra-bold
+}
+
+.resume-Section {
+  width: 100%;
+display: flex;
+flex-flow: column nowrap;
+margin-bottom: 20px;
+}
+
+.resume-Org {
+  font-family: $font-medium;font-size: 20px
+}
+
+.resume-jobDate {
+  font-weight: 400;
+font-size: 14.5px;
+margin: 5px 0;
+}
+.resume-Project {
+  align-items: center;
+  margin: 5px 0;
+}
+.resume-PName {
+  font-size: 18px;font-style:italic;font-weight:bold;
+  margin-top: 5px;
+}
+
+.resume-PExplain {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.resume-W {
+  font-weight: 400;
+font-size: 14px;
+margin: 2px 0;
 }

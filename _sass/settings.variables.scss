@@ -3,9 +3,10 @@
 \*------------------------------------*/
 
 $theme1: #f57a32;
+$theme2: #f05e08;
 $color-main: #000;
 $color-grey: #b1a69d;
-$color-grey-light: rgb(218, 205, 205);
+$color-grey-light:#eaeaea;
 $color-pale-bg: #ffffff;
 
 $border-on-light: darken($color-pale-bg, 5%);
@@ -17,11 +18,12 @@ $themepath: '/theme-assets';
 
 
 // font
-$font-thin: 'Pretendard-Thin', san-serif;
-$font-extra-light: 'Pretendard-ExtraLight', san-serif;
-$font-light: 'Pretendard-Light', san-serif;
-$font-regular: 'Pretendard-Regular', san-serif;
-$font-semi-bold: 'Pretendard-SemiBold', san-serif;
-$font-bold: 'Pretendard-Bold', san-serif;
-$font-extra-bold: 'Pretendard-ExtraBold', san-serif;
-$font-black: 'Pretendard-Black', san-serif;
+$font-thin: 'Pretendard Thin', san-serif;
+$font-extra-light: 'Pretendard ExtraLight', san-serif;
+$font-light: 'Pretendard Light', san-serif;
+$font-medium: 'Pretendard Medium', san-serif;
+$font-regular: 'Pretendard Regular', san-serif;
+$font-semi-bold: 'Pretendard SemiBold', san-serif;
+$font-bold: 'Pretendard Bold', san-serif;
+$font-extra-bold: 'Pretendard ExtraBold', san-serif;
+$font-black: 'Pretendard Black', san-serif;

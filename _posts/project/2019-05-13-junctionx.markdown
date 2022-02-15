@@ -2,8 +2,8 @@
 title: "After working as a volunteer for JunctionX Seoul"
 layout: post
 date: 2019-05-13 01:00
-bannerpic: /assets/images/markdown.jpg
-headerImage: false
+# bannerpic: /assets/images/wordProject/markdown.jpg
+# headerImage: false
 tag:
 - blog
 - JunctionX
@@ -11,14 +11,14 @@ tag:
 - Programming
 - 프로그래밍
 - IT
-
+nav-class: project
 category: blog
 author: Hailey Park
 description:
 ---
 
-![](http://hailey99.github.io/assets/images/j1.jpeg)
-![](http://hailey99.github.io/assets/images/j2.jpeg)
+![](http://mintaco.github.io/assets/images/wordProject/j1.jpeg)
+![](http://mintaco.github.io/assets/images/wordProject/j2.jpeg)
 
 <br>
 <ol>
@@ -65,5 +65,5 @@ description:
 </ol>
 
 <br>
-![](http://hailey99.github.io/assets/images/j0.png)
+![](http://mintaco.github.io/assets/images/wordProject/j0.png)
 

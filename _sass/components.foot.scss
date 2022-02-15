@@ -3,12 +3,15 @@
 \*------------------------------------*/
 
 footer {
-    padding-top: 2rem;
 	padding-bottom: 2rem;
-	margin-top: 2rem;
-	border-top: 1px solid #000;
+	margin: 2rem;
+	
 }
 
+footer .wrapper {
+	padding-top: 2rem;
+	border-top: 1px solid $theme1;
+}
 footer ul {
 	padding: 0;
 	list-style: none;
