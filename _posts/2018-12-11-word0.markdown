@@ -4,7 +4,7 @@ layout: post
 date: 2018-12-11 12:20
 bannerpic: /assets/images/markdown.jpg
 headerImage: false
-projects : true
+projects: true
 tag:
 - project
 - 낱말프로젝트
