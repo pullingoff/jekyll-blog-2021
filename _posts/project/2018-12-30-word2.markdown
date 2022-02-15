@@ -2,7 +2,7 @@
 title: "[R] 낱말 프로젝트 02: Fields"
 layout: post
 date: 2018-12-30 11:32
-# bannerpic: /assets/images/wordProject/markdown.jpg
+# bannerpic: /assets/wordProject/markdown.jpg
 # headerImage: false
 # projects : true
 tag:
@@ -18,7 +18,7 @@ description: Word Project #2
 
 오늘은 내 위시 리스트 속에 가장 많이 들어있는 책의 분야!를 찾아보았다. 편의를 위해 한 칸씩 띄었지만 알고 보면 이어진 <span class="evidence">코드 한 줄만으로</span> 결과를 도출해낼 수 있었다.
 ​
-![](http://mintaco.github.io/assets/images/wordProject/2-1.png)
+![](http://mintaco.github.io/assets/wordProject/2-1.png)
 
 
 사실 25열까지는 지난 소프로젝트에도 등장한 부분이다.
@@ -35,7 +35,7 @@ View(Fields)
 ​
 
 ​
-![](http://mintaco.github.io/assets/images/wordProject/2-2.png)
+![](http://mintaco.github.io/assets/wordProject/2-2.png)
 
 ​**'2000년대 이후 한국소설'** 이 1위를 했다.
 
@@ -81,7 +81,7 @@ View(Fields)
 
 그런데 여기서 든 의문!
 
-![](http://mintaco.github.io/assets/images/wordProject/2-3.png)
+![](http://mintaco.github.io/assets/wordProject/2-3.png)
 
 <span class="evidence">'외국'</span> 이라는 분류는 무엇인가? '외국 소설'도 아니고, '~~국 소설'도 아니고 저 흐리멍텅 애매모호 아리까리한 분류는 무엇인가???
 
@@ -91,13 +91,13 @@ View(Fields)
 
  궁금하니까, '외국'이라는 분류를 가진 책들엔 무엇무엇이 있는지 알아보기로 한다.
 
-![](http://mintaco.github.io/assets/images/wordProject/2-4.png)
+![](http://mintaco.github.io/assets/wordProject/2-4.png)
 ​
 
 요로코롬 코드를 치면!
 
 ​
-![](http://mintaco.github.io/assets/images/wordProject/2-5.png)
+![](http://mintaco.github.io/assets/wordProject/2-5.png)
 ​
 
 
@@ -116,11 +116,11 @@ View(Fields)
 
 기타 국가 소설? '기타 국가'가 어떤 나라들을 말하는 걸까?
 
-![](http://mintaco.github.io/assets/images/wordProject/2-6.png)
+![](http://mintaco.github.io/assets/wordProject/2-6.png)
 
 방금 친 코드에서 field 이름만 '기타 국가 소설'로 바꿔준다. 아주 쉽다.
 
-​![](http://mintaco.github.io/assets/images/wordProject/2-7.png)
+​![](http://mintaco.github.io/assets/wordProject/2-7.png)
 
 
 그럼 이런 결과가 나오는데
