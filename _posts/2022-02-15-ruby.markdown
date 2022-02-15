@@ -16,8 +16,6 @@ author: Hailey Park
 description: Facing with many errors while setting up a Jekyll github page...
 ---
 
-# Jekyll serve Permission Error on Mac OS Monterey
-
 Facing with many errors while setting up a Jekyll github page, I'm logging it for the people like me.
 
 The problom was, I wanted to run the local server with the instruction
