@@ -48,9 +48,8 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  padding-top: 2rem;
+  margin: 1rem 0;
+  padding-top: 1rem;
   line-height: 1.2;
   border-top: 1px solid $color-grey-light;
   color: $color-grey;
@@ -224,7 +223,7 @@ cite {display: block; color: $color-text-lighter; margin-top: 0.5rem;}
 .article-summary {
   font-size: 1.25rem;
   font-weight: bold;
-  max-width: auto;
+  max-width: 600px;
   line-height: 1.4;
   color: $color-text-lighter;
 }

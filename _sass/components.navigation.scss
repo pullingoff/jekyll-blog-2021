@@ -17,7 +17,7 @@ ul {
 		display: inline-block;
 		margin-left: 1.5rem;
 		a, a:visited {color: lighten($color-main, 20%);}
-		a { transition: color 0.2s ease;}
+		a { transition: color 0.2s ease;font-size:16px;}
 		a:hover {color: $theme1;}
 	}
 	li:first-child {margin-left: 0;}
