@@ -7,37 +7,58 @@ nav-class: home
 ---
 
 <div class="wrapper">
-<!-- <h1>{{ site.title }}</h1> -->
-<p>{{ site.description }}</p>
+  <p id="homeSiteDescription">
+  <h1 style="padding-top:0;">안녕하세요 🙋‍♀️ </h1>
+  "<i style='letter-spacing:3px;'>거미는 자신의 실로써  공간의 자유에  이른다.</i>" </br>
+      좋아하는 책 중 하나인 ‘저지대’에 나오는 구절입니다.   
+    궁금한 것에 도전하고, 나아갈 방향을 탐구하는 제 모습이 거미와 같다고 느꼈습니다.  
+    마케팅을 전공하고 데이터 분석을 공부하다가 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.
+    요즘은 파이썬과 프론트엔드를 열심히 공부하고 있습니다.
+</p>
 </div>
 
 <section class="cf">
 <div class="wrapper">
+  <div class="cateWrapper">
 
-<div class="home-blogs-listing">
-<h1>🥗 최근 글</h1>
-{% for post in site.posts limit:5 %}
-<h2>
-  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
-  <span style="font-size: 0.85rem;font-weight: 300;" class="inline-post-date">/ {{ post.date | date: "%b %-d, %Y" }}</span>
-</h2>
-<p>
-  {% if page.excerpt %}{{ page.excerpt }}
-  {% endif %}
-</p>
-{% endfor %}
-</div>
+    <ul>
+      {% for category in site.categories %}
+        <li><a name="{{ category | first }}">{{ category | first }}</a>
+          <ul>
+            {% for post in category.last limit:3 %}
+              {% if post.url %} 
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+    {% endfor %}
+  </ul>
+  </div>
+<!-- <div class="home-blogs-listing">
+  <h1>🥗 최근 글</h1>
+  {% for post in site.posts limit:5 %}
+  <h2>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+    <span style="font-size: 0.85rem;font-weight: 300;" class="inline-post-date">/ {{ post.date | date: "%b %-d, %Y" }}</span>
+  </h2>
+  <p>
+    {% if page.excerpt %}{{ page.excerpt }}
+    {% endif %}
+  </p>
+  {% endfor %}
+</div> -->
 
 <a class="read-more" href="/blogs/" title="Blog">다른 글도 읽어보기 -></a>
 
 </div>
 </section>
 
-
+<!--
 <section class="home-case-listing cf">
 <div class="wrapper">
 
-<h1>🚀 프로젝트</h1>
+ <h1>🚀 프로젝트</h1>
 
 {% assign items = site.case | sort: 'date' %}
 {% for case in site.case limit:1 %}
@@ -52,9 +73,10 @@ nav-class: home
   </div>
 
 </div>
-{% endfor %}
+{% endfor %} 
 
 <a class="read-more" href="/case-studies/" title="Case studies">More case studies →</a>
 
-</div><!-- end wrapper -->
+</div>
 </section>
+-->
