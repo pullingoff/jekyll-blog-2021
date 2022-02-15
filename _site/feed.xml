@@ -1,48 +1,842 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>White Label</title>
-    <description>A super simple white label website built with Jekyll and using Dan Eden's Toast grid layout.
+    <title>일리헤</title>
+    <description>&quot;거미는  자신의 실로써  공간의 자유에  이른다. &quot; &lt;br/&gt;
+    좋아하는 책 중 하나인 ‘저지대’에 나오는 구절입니다. &lt;br/&gt;
+  궁금한 것에 도전하고, 나아갈 방향을 탐구하는 제 모습이 거미와 같다고 느꼈습니다. &lt;br/&gt;
+  마케팅을 전공하고 데이터 분석을 공부하다가 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.
+  요즘은 파이썬과 프론트엔드를 열심히 공부하고 있습니다.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Feb 2018 13:44:59 +0000</pubDate>
-    <lastBuildDate>Sun, 18 Feb 2018 13:44:59 +0000</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Tue, 15 Feb 2022 12:03:46 +0900</pubDate>
+    <lastBuildDate>Tue, 15 Feb 2022 12:03:46 +0900</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>Another title</title>
-        <description>&lt;figure&gt;
-
-&lt;p&gt;&lt;img src=&quot;/theme-assets/news/news-temp.jpg&quot; alt=&quot;temp&quot; title=&quot;Alt text here&quot; /&gt;&lt;/p&gt;
-
-
-&lt;p class=&quot;caption&quot;&gt;My caption&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Quisque ut dolor gravida, placerat libero vel, euismod. Integer legentibus erat a ante historiarum dapibus. At nos hinc posthac, sitientis piros Afros. Nihil hic munitissimus habendi senatus locus, nihil horum? Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&lt;/p&gt;
-
-&lt;p&gt;Donec sed odio operae, eu vulputate felis rhoncus. Inmensae subtilitatis, obscuris et malesuada fames. Hi omnes lingua, institutis, legibus inter se differunt. Praeterea iter est quasdam res quas ex communi. Curabitur est gravida et libero vitae dictum. Sed haec quis possit intrepidus aestimare tellus.&lt;/p&gt;
+        <title>One day One Commit</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;이미지는 그냥 구글링 해서 url 넣는게 편함 —&amp;gt; 아님 그냥 내 http하고 깃헙페이지 링크 쓰고 … 폴더이름부터 다시 하면 됨!!!&lt;/li&gt;
+  &lt;li&gt;markdown 으로 써놓은 글 위에 div 같은 html 씌워버리면 아예 다 없어짐&lt;/li&gt;
+  &lt;li&gt;R 코드 gists {gist }로 하면 안 올라가져서 그냥 src script로 함&lt;/li&gt;
+  &lt;li&gt;이미지 넣고 사진 사이즈 조절하려면 css 써야됨&lt;/li&gt;
+  &lt;li&gt;포스팅할때 날짜 달라도 순서는 업로드순서대로 올려야함!!&lt;/li&gt;
+  &lt;li&gt;가운데정렬 할 필요없이 아예 양쪽 폭 줄이고 글 다 마크다운으로 함&lt;/li&gt;
+&lt;/ol&gt;
 </description>
-        <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2018/02/02/blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/02/02/blog.html</guid>
+        <pubDate>Tue, 17 Sep 2019 11:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog/2019/09/17/4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/09/17/4.html</guid>
         
+        <category>blog</category>
+        
+        <category>github</category>
+        
+        <category>Programming</category>
+        
+        <category>프로그래밍</category>
+        
+        <category>IT</category>
+        
+        
+        <category>blog</category>
         
       </item>
     
       <item>
-        <title>My title</title>
-        <description>&lt;p&gt;Ab illo tempore, ab est sed immemorabili. Sociis natoque netto penatibus et magnis dis parturient. Quam temere in vitiis, legem sancimus haerentia.&lt;/p&gt;
+        <title>Try! Flutter Banner Design</title>
+        <description>&lt;p&gt;These are size-adjusted versions for effective upload.
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Integer legentibus erat a ante historiarum dapibus. Curabitur blandit tempus ardua ridiculus sed magna. Morbi fringilla convallis sapien, id pulvinar odio volutpat. Prima luce, cum quibus mons aliud  consensu ab eo. Quisque ut dolor gravida, placerat libero vel, euismod. At nos hinc posthac, sitientis piros Afros.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Event information: &lt;a href=&quot;https://festa.io/events/373&quot;&gt;Click!&lt;/a&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Contra legem facit qui id facit quod lex prohibet. Etiam habebis sem dicantur magna mollis euismod. Salutantibus vitae elit libero, a pharetra augue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/tf0.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Festa Banner / 1600x900 px, RGB/ Photoshop and Illustrator&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/tf1.jpg&quot; alt=&quot;Main Banner&quot; /&gt;
+&lt;strong&gt;Main Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/tf2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Location Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2018/01/01/blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/01/blog.html</guid>
+        <pubDate>Sat, 20 Jul 2019 01:20:00 +0900</pubDate>
+        <link>http://localhost:4000/project/2019/07/20/word4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2019/07/20/word4.html</guid>
         
+        <category>project</category>
+        
+        <category>Flutter</category>
+        
+        <category>Google</category>
+        
+        <category>Design</category>
+        
+        <category>Festa</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>After working as a volunteer for JunctionX Seoul</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/j1.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://hailey99.github.io/assets/images/j2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;핀란드에서 시작된 유럽 최대의 해커톤이라는 정션X가 서울에서 열렸다. 처음엔 기획자로 도전해볼까 했지만 아직 포트폴리오라던가 내세울 게 없어서 그냥 봉사활동 신청해봄 2박3일, 자원봉사자 50명, 참가자 160명, 공식 언어는 영어.&lt;/li&gt;
+
+​
+
+&lt;li&gt;인사의 힘?! 첫날 행사 준비 쉬프트를 맡아서 아침에 갔는데 나 포함 봉사자가 3명 있었음. 근데 어색한거 싫어서 걍 내가 먼저 통성명하자고 하고 말 계속 걸었다. 일하는데 계속 새로운 봉사자들이 왔다. 다들 유쾌했고 이번 해커톤을 성공적으로 마무리하겠다는 열정을 가지고 있었다. 덕분에 정말 즐거웠고 좋은 추억 만들었어요! &lt;/li&gt;
+
+​
+
+&lt;li&gt;행사 준비 쉬프트 같이한 친구중에 특성화고 고딩인 친구가 있었는데 벌써 해커톤 15번 나가봤다더라. 뭐해봤냐고 물어봤더니 피(헌혈)만을 위해서 길러지고 죽는 공혈견 돕는 프로젝트를 해봤다고 설명을 해줬다. &apos;공혈견&apos;이라는 단어 자체도 처음 들어봤고, 코딩,프로그래밍?을 이용해서 그런 사회문제를 해결할 수 있다는 게 진짜 멋있다고 생각했고 와닿았다. 수많은 배움 중 하나 &lt;/li&gt;
+
+​
+
+&lt;li&gt; 이벤트 후원사들중 아예 참관하러 왔다가 추가로 스폰하고 싶다고 한 기업들이 있었다. 당연한거겠지만 기업들이 이런 행사 예의주시하고 있을 줄 몰랐는데, 아는 사람들은 다 알고 있었구나 싶어서 이 커뮤니티에 어떻게든 들어가야겠다고 다짐했다. 기회는 정말 내가 찾으러다녀야하나봐.&lt;/li&gt;
+
+​
+
+&lt;li&gt;신청자 받아서 스타트업 미팅 세션도 있었다. 스타트업 창업, 투자 등등 궁금한점 있는 사람들이 멘토링 받을 수 있는 거였음. 한 친구가 참여했길래 물어보니까 아이디어가 있어서 한번 물어보려고 신청했다는 거 듣고 아 이사람들 진짜 부지런하고 멋지고 열정적이다... 느끼면서 다시한번 열심히 살자구 생각했다...^^ &lt;/li&gt;
+
+​
+
+&lt;li&gt; 빛공해의 도시 서울에서 진행된 해커톤답게 자원봉사자들이 조명을 위해 창문에 검정 시트지를 다 붙였다. 남자 조명 감독이 행사 처음부터 끝까지 함께 하셨는데 참 센스 있는 분이셨다. 탁구공마냥 가볍고 통통 위트있게 말씀하시는데 타고난 센스에 연륜이 합쳐진 것 같았달까! 여러모로 그분의 상황 대처 능력과 순발력... 공부한다고 되는게 아니겠지만, 배우고싶다고 생각했다. &lt;/li&gt;
+
+​
+
+&lt;li&gt;컨디션이 태도가 되지 않는 사람 세상에서 제일 멋진듯. &lt;/li&gt;
+
+​
+
+​
+
+&lt;li&gt; 예전에 오퍼레터 받고 장학금인터뷰까지 봤던 대학교 학생들이 참가했다. 재미있었다 내가 만약 밴더스니치에서 다른 선택을 했다면 아예 다른 상황이었을 수도 있었겠구나 싶은 거? 그렇습니다 저 밴더스니치 공략 찾아서 여러 결말 다 봤습니다... &lt;/li&gt;
+
+​
+
+&lt;li&gt; 언어가 재미있다는 건 무슨 느낌이지. 딱히 &apos;영어&apos;가 재미있는 건 모르겠고 걍 내가 대화할 수 있는 사람의 폭이 늘어나니까 재미있는 듯ㅋㅋㅋ 한국어로는 왠만하면 한국인하고만 대화해서 바로바로 파악되는데 대화할때 영어 쓰면 훨씬 출신지역에 국한을 덜 받으니까 좋다. 이번 봉사하면서 영어 캐나다에 있을 때만큼 썼는데 영어가 그 사이에 또 는 느낌이더라고요 재밌고 기분 좋았습니다 &lt;/li&gt;
+
+​
+
+&lt;li&gt; 나는 예전부터 기획자가 하고 싶었다 공연기획자, A&amp;amp;R, 마케팅 머 다 그런 맥락에서였는데 이번 해커톤 보면서 프로그래머, 기획자, 디자이너가 만나면 진짜.. 멋진 차원의 기획을 할 수 있구나 싶었다 저도 사용자 경험... 이런거 고려하면서 기획해서 프로그램 만들구 싶어요 예전엔 무조건 기획자의 롤을 탐냈다면 이젠 프로그래머의 롤이 더 탐납니다 그렇기 때문에 오늘 산 자료구조 책을 미루지 않고 캐나다 가기전에 1회독 하게씁니다...! 내년에 참가자로 참여해야지 후기 끗. &lt;/li&gt;
+
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;http://hailey99.github.io/assets/images/j0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 13 May 2019 01:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog/2019/05/13/3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/05/13/3.html</guid>
+        
+        <category>blog</category>
+        
+        <category>JunctionX</category>
+        
+        <category>Hackathon</category>
+        
+        <category>Programming</category>
+        
+        <category>프로그래밍</category>
+        
+        <category>IT</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Built my own Github page</title>
+        <description>&lt;p&gt;&lt;strong&gt;I’ve FINALLY got my own Github page!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Today is May 1st 2019, the day I’m flying out to Seoul. It’s been a year since I left there on April 27th, 2018!
+One of my goal this May is creating my own Github page, learning how to use git, being familiar with HTML, CSS, and markdown.
+So, I’m posting this blog at Toronto Pearson Airport that always brings up the memory of the first day in Canada.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I just wanna share some songs that I can’t love more and the feelings I go through whenever I listen to the tracks.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+One is &lt;strong&gt;Lee Sora - Track 9&lt;/strong&gt;. This comforting song is what I listened to at the plane to Toronto. I embedded the youtube video playing with a river view of Seoul I can’t wait to see it.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5LzfjF1ESIc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;w&lt;/p&gt;
+
+&lt;p&gt;Another song is &lt;strong&gt;Safeplanet - คำตอบ&lt;/strong&gt;, the song I’m gonna listen to in the air heading to Seoul. I’ve known this band only for 3 weeks, but I’m sure I’ll stan them for a long time cuz this band let me know the coolness of Thai indie band. It’s a shame I can’t understand Thai tho.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/P2y-C4sQfCc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Anyway, I hope you all have the greatest Summer and like my new Github page and these bops.&lt;/p&gt;
+
+&lt;p&gt;See you in Korea!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 May 2019 01:48:00 +0900</pubDate>
+        <link>http://localhost:4000/blog/2019/05/01/2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/05/01/2.html</guid>
+        
+        <category>blog</category>
+        
+        <category>이소라</category>
+        
+        <category>Safeplanet</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>[R] 낱말 프로젝트 03: Publishers</title>
+        <description>&lt;p&gt;&lt;strong&gt;내가 가장 선호하는 책 출판사는 어디일까?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​​&lt;img src=&quot;http://hailey99.github.io/assets/images/3-1.png&quot; alt=&quot;2018 인디고 베스트셀러&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2018 Indigo(북미 대형 서점) 베스트셀러&lt;/p&gt;
+
+&lt;p&gt;북미 책들은 나와 미감이 심하게 안 맞는다. Indigo든 작은 책방에서든 내 취향의 디자인을 가진 책을 쉽게 찾아보지 못했다. 그 중에서도 가장 큰 충격을 주었던 책을 꼽으라면 한강의 채식주의자 번역판을 소개할 것이다.&lt;/p&gt;
+
+&lt;p&gt;긴 말은 뒤로 하고 사진을 보자.&lt;/p&gt;
+
+&lt;p&gt;​
+&lt;img src=&quot;http://hailey99.github.io/assets/images/3-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그렇 ㄷ ㅑ.&lt;/p&gt;
+
+&lt;p&gt;자고로 종이책은 표지뿐 아니라 띠지, 북재킷, 책 날개까지 다 훑어줘야하는 법.&lt;/p&gt;
+
+&lt;p&gt;얇은 북재킷을 벗기자 나타난 검은 무지의 하드커버 책을 보고 정말 경악을 금치 못했더랬다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;이렇듯 책 내용만큼 디자인이 많이 신경쓰인다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;정말&lt;/p&gt;
+
+&lt;p&gt;그럴까?&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;통계로 확인해보자!&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;27번 줄까지는 지금까지 해온 것들과 방법이 같아서 따로 첨부하지 않았음!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/3-3.png&quot; alt=&quot;&quot; /&gt;
+요로코롬 코드를 쳐서 보면&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;이런 결과가 나온다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/3-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1위는 약 300권의 책 중에 45권으로 &lt;strong&gt;‘문학동네’&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이 결과는 사실 꽤 의외였다. 왜냐면 민음사가 압도적으로 1위를 할 거라고 예상했기 때문이었다. 그래서 위시리스트 안 문학동네와 민음사의 책 리스트를 비교해보았더니, 민음사의 책들은 거의 전집, 시리즈물이었고 문학동네의 책들은 그냥 개별적인 책인 경우가 대다수였다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;2위는 32권, &lt;strong&gt;민음사&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;긴 말은 제가 어제 남긴 먹먹문으로 대신합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/3-5.png&quot; alt=&quot;&quot; /&gt;
+​&lt;/p&gt;
+
+&lt;p&gt;그 뒤론 열린책들(14권) / 창비(11권) / 마음산책(9권)&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;이쯤에서 다시 궁금한게 생겼다. 과연 이 출판사들의 책들 중에서 &lt;strong&gt;어떤 시리즈가 가장 많을까?&lt;/strong&gt; 하는 것이었다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/3-6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;!is.na 라는 명령어를 처음 사용했는데, na(결측치)가 !(아닌) 것만 필터링해 결과를 뽑아낸다는 뜻이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;evidence&quot;&gt;특정 시리즈가 아닌 책들을 효과적으로 걸러낸 뒤 시리즈인 책들에서만 결과값을 찾기 위해 사용했다.  &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View(num)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​
+&lt;img src=&quot;http://hailey99.github.io/assets/images/3-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이런 결과가 나온다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;select를 해서 그 시리즈 번호에 맞는 시리즈명을 나오게 하고 싶었는데,
+알라딘에서 제공하는 엑셀에 경우 시리즈명만 나와있는게 아니라
+그 뒤에 해당 책의 번호가 적혀있어서 R로는 그 책들을 하나로 묶을 수 없었다.&lt;/p&gt;
+
+&lt;p&gt;예를 들면&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/3-8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이런 식으로 같은 문동 세계문학전집이면 시리즈 번호는 같지만 135번, 79번으로 완전히 같은 변수를 갖지 않는다. 그래서 전처리를 하지 않으면 같이 묶어낼 수 없다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/3-9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;gsub을 사용해서 series컬럼의 모든 숫자들을 지우려고 했는데 작동이 되지 않았고 해결책을 찾지 못했다. 아시는 분 댓글 남겨주세요ㅜㅜ&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;아쉽지만 엑셀로 시리즈번호에 맞는 시리즈명을 찾아보았다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;결과는!&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/3-10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/3-11.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;1위 민음사 세계문학전집&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;……. 말할 필요가 없다 난 스카이캐슬 보면서 우주네 집에 이 시리즈 쫙 꽂혀있는거 보고 이러니까 사교육없이도 우주가 예서 못지않게 공부를 잘 하죠! (왈칵) 한 사람이다. 우주짱! 우주네 가족짱! (이수임 씨 제 이모랑 똑같이 생기셔서 저 한서진씨보다 이수임씨 편입니다 혜나우주 밉니다 저.)&lt;/p&gt;
+
+&lt;p&gt;개인적으로 세로가 좁아서 읽기 불편한데 글씨체가 여리여리해서 예쁘다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/3-12.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2위 문학동네 세계문학전집&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;개인적으로 나는 문학동네 세계문학전집을 선호한다. 민음사 세계문학전집에는 ‘문학은 시대에 맞게 끊임없이 새로 번역되어야한다~’는 말이 적혀있는데, 그럼에도 간혹 단어나 번역이 올드하다는 느낌을 받는다. 트렌드에 안 맞는다기보다 지금은 잘 쓰이지 않는 단어로의 번역이 많다고 하는게 적절할 듯 싶다(물론 책마다 번역이 달라서 단언하기 어렵다). 그에 반해 문학동네는 좀 더 쉬운 단어들로 번역된 느낌이다. 물론 이건 온전히 나의 취향일 뿐! (문동 전집 입덕작품은 ‘프랑켄슈타인’)&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/3-13.png&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;http://hailey99.github.io/assets/images/open.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3위 열린책들 세계문학&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;민음사 전집에 비해 문동, 열린책들 전집은 구글 이미지 검색을 했을 때 사진이 많이 뜨지 않는다. 요즘은 인스타그램덕분에 굳이 책을 읽지 않아도 사진을 찍어 읽은 티를 낼 수 있는데, 확실히 민음사 전집이 그런면에서 적절한 디자인을 가졌구나하고 생각했다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​
+&lt;img src=&quot;http://hailey99.github.io/assets/images/3-14.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://hailey99.github.io/assets/images/ga.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;4위 민음사 모던클래식&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;원래 4,5위를 소개한 적은 없지만 이번엔 소개할 거다 왜냐면 디자인이 참 예쁘고 말그대로 ‘모던 클래식’이라 내가 정말 X10000000 좋아하는 시리즈이기 때문! (나는 고전을 별로 안 좋아하는 타입이라 세계문학전집보다 이 시리즈를 더 사랑한다…. ) 패밀리데이때 가장 많이 쟁일 시리즈이다.&lt;/p&gt;
+
+&lt;p&gt;최근 노벨 문학상을 수상한 작가, 개인적으로 내가 좋아하는 외국 작가들의 책을 많이 출판하고 있음.&lt;/p&gt;
+
+&lt;p&gt;예를 들면 코맥 매카시 / 가즈오 이시구로 / 마거릿 애트우드&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ojsfile.ohmynews.com/STD_IMG_FILE/2017/1108/IE002242235_STD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5위 민음사 오늘의 젊은 작가&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Always,” said Snape. - J.K.Rowling, Harry Potter and the Deathly Hallows.&lt;/p&gt;
+
+&lt;p&gt;나의 인생 작가님들의 책을 처음 만날 수 있었던 시리즈다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​
+​&lt;/p&gt;
+
+&lt;p&gt;**결론 1: 나는 아름다운 디자인의 노예. 그래서 민음사 시리즈들의 노예. (실제로 모던 클래식 사진 찾아보면서 심장 BPM이 240이었다.)&lt;/p&gt;
+
+&lt;p&gt;결론 2: 민음사가 디자인을 압도적으로 내 취향으로 한다면 문학동네는 무난하게 다 적당히 내 입맛에 맞게 잘 한다.&lt;/p&gt;
+
+&lt;p&gt;결론 3: 민음사 책은 종이책으로 직접 사서 모을거고 다른 책들은 이북으로 읽어야겠다^^**&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;끝 -
+​
+&lt;script src=&quot;https://gist.github.com/hailey99/1400e4e5bb6baac1c8e676f56fb34157.js&quot;&gt;&lt;/script&gt;
+​&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​
+​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;한국과 북미 책 소비성향, 디자인의 차이에 대한 나의 짧은 분석!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;세계 최대의 책 시장을 가진 북미에서는 남녀노소 책을 읽기(독서 인구가 많기) 때문에 한 책을 hard cover/ paperback 두 타입으로 출판하는 경우가 많다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;반면 한국 책 시장의 주요 타겟 소비자층은 2-30대 여성이고, 책 하나만으로는 기업들이 살아남기 쉽지 않다. 여러 도서판매 사이트들이 경쟁하듯 굿즈, 이벤트, 방송(팟캐스트), 디자인에 사활을 거는 이유다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;이렇듯 취향과 문화 차이 외에, 한국은 책을 읽는 인구가 절대적, 상대적으로 적기 때문에 주 고객의 기대에 부응하기 위해 출판사들이 디자인에 큰 신경을 쓰게 되고, 그러면서 돌이 들어가는 고급 재질의 책을 만들면서 가격 또한 올라가게 되는 것.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Jan 2019 17:06:00 +0900</pubDate>
+        <link>http://localhost:4000/project/2019/01/03/word3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2019/01/03/word3.html</guid>
+        
+        <category>project</category>
+        
+        <category>낱말프로젝트</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>[R] 낱말 프로젝트 02: Fields</title>
+        <description>&lt;p&gt;&lt;strong&gt;‘내가 제일 좋아하는 책 분야는 뭘까?’&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;오늘은 내 위시 리스트 속에 가장 많이 들어있는 책의 분야!를 찾아보았다. 편의를 위해 한 칸씩 띄었지만 알고 보면 이어진 &lt;span class=&quot;evidence&quot;&gt;코드 한 줄만으로&lt;/span&gt; 결과를 도출해낼 수 있었다.
+​
+&lt;img src=&quot;http://hailey99.github.io/assets/images/2-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;사실 25열까지는 지난 소프로젝트에도 등장한 부분이다.&lt;/p&gt;
+
+&lt;p&gt;29열부터 시작되는, ‘%&amp;gt;%’로 이어서 데이터 분석하는 건 몇주전까지 열심히 연습했었는데 시험기간이라고 잠시 내려놓았었더니 금세 좀 까먹어버렸다. 종강도 했으니, 다시 뇌에 R기름을 윤기 좔좔 흐르게 칠할 시간!!&lt;/p&gt;
+
+&lt;p&gt;​
+그래서 결과는?&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;View(Fields)&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​
+&lt;img src=&quot;http://hailey99.github.io/assets/images/2-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;strong&gt;‘2000년대 이후 한국소설’&lt;/strong&gt; 이 1위를 했다.&lt;/p&gt;
+
+&lt;p&gt;이 영광을 ‘피프티 피플’, ‘보건교사 안은영’을 쓰신 정세랑 작가님❤️에게 돌립니다.&lt;/p&gt;
+
+&lt;p&gt;입시때문에 한동안 글의 재미를 잃고 살았는데 그 두 책을 읽고 다시 책의 재미에 빠졌기 때문이죠!&lt;/p&gt;
+
+&lt;p&gt;그냥 한국 소설이 아니라 ‘2000년대 이후’라는 게 좋은데 과거의 책들에는 솔직히 불편하게 느껴지는 비유와 성적 대상화들이 많았고 여성 등장인물도 적을 뿐더러, 그들이 대상화되는 일이 많았기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;문단내_성폭력 해시태그가 일렁이던 그 시즌에 우리 다 많이 아쉽고 슬프고 화났었잖아요 그쵸.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;어쨌든 내 모국어로 쓰여진 글을 통해 그 글의 작가님, 글 속 등장인물들과 소통하는 순간을 사랑하는 나로서는 1위가 국내 소설이라는게 참 좋다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;2위는 &lt;strong&gt;‘영미소설’&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;어렸을 때 가까운 나라인 일본보다 미국 컨텐츠의 영향을 많이 받았다. 지브리보다는 드림웍스 픽사 러버였고, 아직도 외로움을 달래줄 BGM이 필요할 때면 슈렉 또는 토이스토리를 틀어놓는다. 가장 좋아하는 만화는 당연히 The Simpsons!!!&lt;/p&gt;
+
+&lt;p&gt;하지만 이 이유말고도 영미권의 책, 즉 영어로 쓰인 책이 번역되어 수입될 기회가 제일 많기 때문에 그런건 아닐까?하는 생각도 해봅니다. 익숙한게 무서운거야^^&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;3위는 &lt;strong&gt;‘교양 인문학’&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이 결과는 약간 의외였다. 인문학적 소양을 가꾸고 싶단 욕심이 많긴 하지만, 정작 그쪽(거리 두는거 아님) 책을 많이 읽어오진 않았기 때무니다 그거슨 내 머리가 수면 스위치를 켜버리기 때무니다ㅜㅜ&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;뜬금없는 결심: 2019년엔 인문학 책을 ‘나중에 읽어야지~’하고 보관함에 담지만 말고 진짜로! 시간을 내서 읽어야겠다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;그런데 여기서 든 의문!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/2-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;evidence&quot;&gt;‘외국’&lt;/span&gt; 이라는 분류는 무엇인가? ‘외국 소설’도 아니고, ‘~~국 소설’도 아니고 저 흐리멍텅 애매모호 아리까리한 분류는 무엇인가???&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;궁금하니까, ‘외국’이라는 분류를 가진 책들엔 무엇무엇이 있는지 알아보기로 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/2-4.png&quot; alt=&quot;&quot; /&gt;
+​&lt;/p&gt;
+
+&lt;p&gt;요로코롬 코드를 치면!&lt;/p&gt;
+
+&lt;p&gt;​
+&lt;img src=&quot;http://hailey99.github.io/assets/images/2-5.png&quot; alt=&quot;&quot; /&gt;
+​&lt;/p&gt;
+
+&lt;p&gt;짜잔 이런 결과가 나온다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;‘외국’이라기보단 그냥 ‘영미 소설’로 분류되었으면 됐을 것 같은데 말이다. 만약 그렇게 되었다면 국내 소설이 1위 자리를 뺏겼을 수도 있겠다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​
+여기서 두번째 의문.&lt;/p&gt;
+
+&lt;p&gt;기타 국가 소설? ‘기타 국가’가 어떤 나라들을 말하는 걸까?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/2-6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;방금 친 코드에서 field 이름만 ‘기타 국가 소설’로 바꿔준다. 아주 쉽다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/2-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그럼 이런 결과가 나오는데&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;evidence&quot;&gt;페터 빅셀(스위스), 캐롤 쉴즈(캐나다), 리처드 플래너건(호주), 린이한(대만)&lt;/span&gt; 등등 정말 말그대로 ‘기타 국가’의 글들이었다.
+​&lt;/p&gt;
+
+&lt;p&gt;외국 사람들한테는 한국 소설이 ‘기타 국가 소설’이겠지? 한 언어로 쓰인 글을 번역하게 되면 그 뉘앙스를 100퍼센트 살릴 수 없다는 건 언제나 아쉽다. 이러한 이유로, 나와 같은 언어를 공유하는 분의 글이 참 소중하다.&lt;/p&gt;
+
+&lt;p&gt;내가 책을 가려 읽는단 사실을 다시 한번 실감했다.
+남미 또는 아프리카와 같이 평소에 잘 접해보지 못한 곳의 책들에 도전해야겠다.&lt;/p&gt;
+
+&lt;p&gt;2019년엔 더 계획적인 독서를 해야지!&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/hailey99/bc79098b2443d615ba751f2c57e58e89.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Dec 2018 11:32:00 +0900</pubDate>
+        <link>http://localhost:4000/project/2018/12/30/word2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2018/12/30/word2.html</guid>
+        
+        <category>project</category>
+        
+        <category>낱말프로젝트</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>[R] 낱말 프로젝트 01: Words</title>
+        <description>&lt;p&gt;&lt;strong&gt;‘내 북 위시 리스트 속 책의 제목에 가장 자주 등장하는 단어는 뭘까?’&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이 질문은 나라는 사람을 얼마나 드러낼까? 이번 소프로젝트의 결과를 보면 알 게 될 것이다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;em&gt;코드는 맨 아래에 첨부되어있습니다.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;레쓰기릿&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;일단 알라딘 보관함에서 리스트를 엑셀로 저장해온다. 캡쳐 당시엔 보관함에 331개의 책을 넣어두었다! 항상 느끼지만 세상은 넓고 인생은 짧고 갈 곳은 많고 읽을 책은 많다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;http://hailey99.github.io/assets/images/1-1.png&quot; alt=&quot;1&quot; title=&quot;Site:Aladin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;알라딘에선 보관함의 책 리스트를 ‘.xls’파일로 제공하고 있는데 이 확장자는 R에서 지원을 하지 않는 듯 해서, save as를 이용해 &lt;span class=&quot;evidence&quot;&gt;확장자를 ‘.xlsx’&lt;/span&gt; 로 바꿔주었다. 사실 csv파일 쓰는게 제일 편한데 유니코드 인코딩 어쩌구 문제로 한글이 깨지길래 그냥 xlsx파일을 사용했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/1-2.png&quot; alt=&quot;&quot; title=&quot;Organizing Excel Sheet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;엑셀 파일을 열면 이런 식으로 간소한 설명이 적혀 있는데, 분석을 쉽게 하기 위해(&lt;span class=&quot;evidence&quot;&gt;첫 열을 header로 자동 지정하기 위해&lt;/span&gt;) 엑셀 자체에서 1,2,3,4열을 지웠다.
+​&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/1-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;요로코롬 분석을 시작해보자.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/1-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;셀 제목들이 한국어로 되어있는데 영어로 해야 코딩할 때 쉬울 것 같아서 대충 영어로 이름을 바꿨다.&lt;/p&gt;
+
+&lt;p&gt;전자책도 8권 정도가 포함되어있었는데, 아쉽지만 판형을 기준으로 그냥 다 빼버렸다.
+&lt;br /&gt;&lt;br /&gt;
+​
+&lt;img src=&quot;http://hailey99.github.io/assets/images/1-5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 소프로젝트에서는 책 타이틀 column만 있으면 돼서 책 제목만 모아서 txt 파일을 만들어 그걸로 분석했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;데이터프레임의 한 column만 지정해서 그 행 텍스트만 뽑는 법 아시는 분 댓글 부탁드립니다…!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;이 부분에서만 패키지가 4개가 쓰였다. 워드클라우드를 만들기 위해 설치한 패키지들도 있었는데 &lt;em&gt;R plots 창에서 한글이 깨져버리는 문제를 해결하지 못했다.&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/1-6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그 다음엔 &lt;span class=&quot;evidence&quot;&gt;단어(명사)목록과 등장 횟수를 표로 정리하고, 탑 20을 빈도수로 정렬&lt;span&gt; 했다&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;이렇게 하고 나면&lt;/p&gt;
+
+&lt;p&gt;​
+Drum roll please!
+​&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; 이런 결과가 나옵니다 &lt;/b&gt;
+&lt;br /&gt;
+​&lt;img src=&quot;http://hailey99.github.io/assets/images/1-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;여기서요???1이요??? 조금 갑작스럽군요;;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;사실 이게 진짜_최종_은 아니고, &lt;span class=&quot;evidence&quot;&gt;‘2글자 이상의 단어’라는 조건을 지정해주기 전의 raw data&lt;/span&gt; 라고 보면 된다.
+​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;그래서 진짜 top 20를 보면&lt;/p&gt;
+
+&lt;p&gt;​
+​&lt;/p&gt;
+
+&lt;p&gt;짜잔!&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/1-8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 1위 반양장 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
+
+&lt;p&gt;그럴수도있는거잖아요한국인이라면페이퍼백보다양장반양장제본을더좋아할수도있는거잖아요반양장이라는단어가1위할수도있는거잖아요&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;1위 ‘반양장’&lt;/p&gt;
+
+&lt;p&gt;이라는 결과를 보고 소리내 웃었다. 데이터 분석을 한번에 쉽게 후루룩 한게 아니고 막힌 부분들도 많았는데 저런 유쾌한 결과가 나오니까 재미있었다. 뿌듯하기도 했고 ㅎㅎ&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;2위 ‘사랑’&lt;/p&gt;
+
+&lt;p&gt;반양장 제외 1위인 ‘사랑’이라는 단어는 꽤 예측 가능했는데 왜냐면 난 찐으로 사랑을 믿는 사람이기 때무니다,,&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;결론: ‘내 북 위시 리스트에 가장 자주 등장하는 단어가 뭘까?’라는 질문은 당신을 설명해주는 일종의 리트머스 시험지가 될 수 있다!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;그럼&lt;/p&gt;
+
+&lt;p&gt;다시 또 만나요!&lt;/p&gt;
+
+&lt;p&gt;​
+&lt;script src=&quot;https://gist.github.com/hailey99/c4e05b9ade0edbc01980f35e3a2b5d67.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Dec 2018 19:02:00 +0900</pubDate>
+        <link>http://localhost:4000/project/2018/12/28/word1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2018/12/28/word1.html</guid>
+        
+        <category>project</category>
+        
+        <category>wordproject</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>[R] 낱말 프로젝트 00: Introduction</title>
+        <description>&lt;p&gt;혹시 당신.. MBTI 결과가 안 바뀌었을 걸 알면서도 MBTI 사이트 링크가 눈에 보일 때마다 해보시나요?&lt;/p&gt;
+
+&lt;p&gt;남한테 듣는 자신의 첫인상 이야기가 그렇게 재미있나요?&lt;/p&gt;
+
+&lt;p&gt;무신론자, 유사과학을 믿지 않으면서도 괜히 사주 검색해보려고 부모님께 탄생시간을 물어본 적이 있나요?^^&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/samehere.jpeg&quot; alt=&quot;samehere&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;축하합니다&lt;/p&gt;
+
+&lt;p&gt;그렇다면 당신은&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;캐.해 중독자&lt;/strong&gt; 입니다.&lt;/p&gt;
+
+&lt;p&gt;(캐.해: 캐릭터 해석 / 팬들이 좋아하는 셀러브리티의 성격, 성향, 취향을 추측 및 해석하는 것)&lt;/p&gt;
+
+&lt;p&gt;좋아하는 연예인 또는 영화나 드라마 속 등장인물의 캐해를 하는 것도 재미있지만 뭐니뭐니해도 제일 재미있는 캐.해는 내 캐.해 당하기 ㅎ_ㅎ&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;인기가요 샌드위치도 아니고 순전히 캐.해 당하고 싶어서 아이돌 데뷔를 잠깐(3초) 고민했으나 그것은 아무래도 무리라는 생각에&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;데이터 통계, 분석 프로그램 &lt;strong&gt;R&lt;/strong&gt; 을 이용해서&lt;/p&gt;
+
+&lt;p&gt;꽤나 과학적으로&lt;/p&gt;
+
+&lt;p&gt;꽤나 신빙성 있게^^&lt;/p&gt;
+
+&lt;p&gt;약 반년간 &lt;strong&gt;알라딘 보관함에 넣어온 책 리스트(Book Wish List)&lt;/strong&gt; 를 분석해보기로 했습니다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;독립적이면서도 무언가로부터 끊임없이 영향을 받아온 개인을 100퍼센트 꿰뚫어볼 수는 없지만 좋아하는 책, 영화 또는 음악이 나에 대해 더 잘 알게 해주는 건 분명하니까요.&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;이번 낱말 프로젝트에서 다뤄볼 것은&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;1. 북 위시리스트 속 책 제목에 가장 자주 등장하는 단어
+
+2. 북 위시리스트에 가장 많이 있는 책 시리즈
+
+3. 북 위시리스트에 가장 많이 있는 책 출판사
+
+4. 북 위시리스트에 가장 많이 있는 책 분야&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;​
+입니다.&lt;/p&gt;
+
+&lt;p&gt;​&lt;img src=&quot;http://hailey99.github.io/assets/images/frog.png&quot; alt=&quot;meditatingfrog&quot; title=&quot;Meditating frog&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그럼 이만&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;첫 데이터 분석 프로젝트 아자아자 화이팅!~~!~!&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Dec 2018 12:20:00 +0900</pubDate>
+        <link>http://localhost:4000/project/2018/12/11/word0.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2018/12/11/word0.html</guid>
+        
+        <category>project</category>
+        
+        <category>낱말프로젝트</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>DATA DRIVEN 2.0 @ Google Toronto</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/google_CA_Post/can0.png&quot; width=&quot;600&quot; /&gt;
+ &lt;em&gt;from https://humber.ca/today/events/data-driven-20-54102&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/google_CA_Post/can2.jpeg&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;학교 미디어학부랑 구글 캐나다가 진행하는 컨퍼런스에 다녀왔다. 주제는 ‘data journalism’이었다. admission 마감 엄청 빨리 됐던데 신청해놓고 안 온 사람들 많아서 쾌적했음. 구글 캐나다 본사라 한 건물 차지하고 있을 줄 알았는데 아니라 놀랐고, 천장이 굉장히 낮았다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/google_CA_Post/can4.jpg&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;정말 맛있었던 점심.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/google_CA_Post/can5.jpeg&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;데이터 분석과 마케팅은 ‘스토리 텔링’이 핵심이라는 점에서 같은 맥락이라고 생각했다. 아무리 흥미로운 데이터 결과를 도출해내더라도 그게 무슨 의미인지, 무슨 가치를 가지고 있는지 정확한 타겟에게 이해하기 쉬운 방식으로 설명할 수 없으면 그 데이터는 가치를 가질 수 없다. 마케팅 또한 그 소비자가 그 물건을 구매해야하는 이유, 스토리가 없으면 그 상품은 가치를 지니지 못하게 된다. 이 두개가 매력적인 이유.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/google_CA_Post/can7.jpeg&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;오늘 참석했던 행사 완전 Motivating.. 캐나다 온 순간부터 내 comfort zone에서 벗어났으니까 불편하고 힘든 거 당연한건데 그걸 잊고 지쳐가고 있었다. 의사소통부터가 완벽하게 안되니 편안할 수 없는게 당연한건데.. 그렇게 comfort zone에서 벗어나서 press forward하고 싶었으면서 몽총이다 몽총이야.&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hailey99.github.io/assets/images/google_CA_Post/can8.jpg&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Nov 2018 08:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog/2018/11/17/1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/17/1.html</guid>
+        
+        <category>blog</category>
+        
+        <category>DATA</category>
+        
+        <category>Data Journalism</category>
+        
+        <category>Google</category>
+        
+        
+        <category>blog</category>
         
       </item>
     
