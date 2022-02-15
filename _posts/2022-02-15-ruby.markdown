@@ -9,8 +9,8 @@ tag:
 - github page
 - ruby
 - jekyll
-nav-class: news
-permalink: news/rubyerror/
+nav-class: blogs
+permalink: blogs/rubyerror/
 category: blog
 author: Hailey Park
 description: Facing with many errors while setting up a Jekyll github page...
