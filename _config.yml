@@ -10,6 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://hailey99.github.io"
 phone: "0000"
+
 theme-path: theme-assets # path to header assets etc
 map-api-key: AIzaSyB3U7uwIvCyq01orxppAIC1v73y-FBGygY
 sass:
@@ -29,3 +30,5 @@ collections:
 
 # Build settings
 markdown: kramdown
+future: true
+timezone: Asia/Seoul
