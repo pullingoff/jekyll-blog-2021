@@ -15,8 +15,8 @@ nav-class: home
 <div class="wrapper">
 
 <div class="home-news-listing">
-<h2>🥗 최근 글</h2>
-{% for post in site.posts limit:3 %}
+<h1>🥗 최근 글</h1>
+{% for post in site.posts limit:5 %}
 <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 <p><span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>{{ post.excerpt }}</p>
 {% endfor %}
@@ -31,7 +31,7 @@ nav-class: home
 <section class="home-case-listing cf">
 <div class="wrapper">
 
-<h2>🚀 프로젝트</h2>
+<h1>🚀 프로젝트</h1>
 
 {% assign items = site.case | sort: 'date' %}
 {% for case in site.case limit:1 %}
