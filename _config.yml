@@ -12,40 +12,21 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# 여기다 쓰고 _case 같은 디렉토리 만들어서 거기다가 md 써야함
 collections:
-  case:
-    output: true
-    permalink: /case-studies/:path/
   resource:
     output: true
     permalink: /resources/:path/
-  # resume:
-  #   output: true
-  #   permalink: /resume/:path/
-  # project:
-  #   output: true
-  #   permalink: /projects/:path/
+  project:
+    output: true
+    permalink: /projects/:path/
+  cs:
+    output: true
+    permalink: /cs/:path/
 
 # Build settings
 markdown: kramdown
 future: true
 timezone: Asia/Seoul
-
-# plugins
-# plugins:
-# - jekyll-paginate 
-
-# pagination:
-#   enabled: true
-#   category: 'blog'
-#   permalink: /:num/
-#   per_page: 7
-#   sort_reverse: true
-#   sort_field: 'date'
-#   title: ':title'
-#   trail:
-#     before: 2
-#     after: 2
-
-# paginate: 10                  # 페이징 처리 개수
-# paginate_path: "/page:num/"   # URL 규칙
+plugins:
+  - jekyll-sitemap # 만약 다른 플러그인 쓰는데 이걸 뒤에 넣어야 그것까지 구글 검색됨
