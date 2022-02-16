@@ -26,7 +26,7 @@ nav-class: home
       <tr>
         <td class="mainPost"><a name="{{ category | first }}">{{ category | first }}</a></td>
         <td>
-          <table id="indexNestTb">
+          <table class="indexNestTb">
             {% for post in category.last limit:3 %}
               {% if post.url %} 
               <tr>
@@ -38,20 +38,35 @@ nav-class: home
         </td>
       </tr>
       {% endfor %}
-    </table>
-    <!-- <ul>
-      {% for category in site.categories %}
-        <li class="mainCate"><a name="{{ category | first }}">{{ category | first }}</a>
-          <ul>
-            {% for post in category.last limit:3 %}
-              {% if post.url %} 
-                  <li class="mainPost"><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %}
+      <tr>
+        <td class="mainPost"><a name="cs">Computer Science</a></td>
+        <td>
+          <table class="indexNestTb">
+            {% for c in site.cs limit:3 %}
+                {% if c.url %} 
+                <tr>
+                  <td><a href="{{ c.url }}">{{ c.title }}</a></td>
+                </tr>
+                {% endif %}
             {% endfor %}
-          </ul>
-        </li>
-      {% endfor %}
-    </ul> -->
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="mainPost"><a name="fe">FrontEnd</a></td>
+        <td>
+          <table class="indexNestTb">
+            {% for c in site.fe limit:3 %}
+                {% if c.url %} 
+                <tr>
+                  <td><a href="{{ c.url }}">{{ c.title }}</a></td>
+                </tr>
+                {% endif %}
+            {% endfor %}
+          </table>
+        </td>
+      </tr>
+    </table>
     <a class="read-more" href="/blog/" title="Blog">다른 글도 읽어보실래요?! -></a>
   </div>
 </div>
