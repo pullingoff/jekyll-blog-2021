@@ -28,11 +28,10 @@ nav-class: home
         <td>
           <table id="indexNestTb">
             {% for post in category.last limit:3 %}
-
-            {% if post.url %} 
-            <tr>
-              <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-            </tr>
+              {% if post.url %} 
+              <tr>
+                <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+              </tr>
               {% endif %}
             {% endfor %}
           </table>
@@ -53,50 +52,7 @@ nav-class: home
         </li>
       {% endfor %}
     </ul> -->
-    <a class="read-more" href="/blog/" title="Blog">다른 글도 읽어보기 -></a>
+    <a class="read-more" href="/blog/" title="Blog">다른 글도 읽어보실래요?! -></a>
   </div>
-<!-- <div class="home-blogs-listing">
-  <h1>🥗 최근 글</h1>
-  {% for post in site.posts limit:5 %}
-  <h2>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
-    <span style="font-size: 0.85rem;font-weight: 300;" class="inline-post-date">/ {{ post.date | date: "%b %-d, %Y" }}</span>
-  </h2>
-  <p>
-    {% if page.excerpt %}{{ page.excerpt }}
-    {% endif %}
-  </p>
-  {% endfor %}
-</div> -->
-
-
-
 </div>
 </section>
-
-<!--
-<section class="home-case-listing cf">
-<div class="wrapper">
-
- <h1>🚀 프로젝트</h1>
-
-{% assign items = site.case | sort: 'date' %}
-{% for case in site.case limit:1 %}
-<h3 class="cf"><a title="{{ case.title }} Case study details" href="{{ case.url }}">{{ case.title }}</a></h3>
-
-<div class="grid">
-  <div class="grid__col grid__col--1-of-5 grid__col--m-1-of-3  grid__col--s-1-of-1">
-    {% if case.thumb %}<img src="/{{ site.theme-path }}/case-studies/{{ case.thumb }}" alt="{{ case.title }}" class="listing-thumb"/>{% endif %}
-  </div>
-  <div class="grid__col grid__col--4-of-5 grid__col--m-2-of-3   grid__col--s-1-of-1">
-    <p>{{ case.summary }}</p>
-  </div>
-
-</div>
-{% endfor %} 
-
-<a class="read-more" href="/case-studies/" title="Case studies">More case studies →</a>
-
-</div>
-</section>
--->
