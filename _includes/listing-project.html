@@ -1,0 +1,23 @@
+<div class="page-listing">
+
+    {% assign items = site.project %}
+    {% for project in site.project %}
+    
+     <h2><a title="{{ project.title }} project study details" href="{{ project.url }}">{{ project.title }}</a></h2>
+    
+    <div class="grid">
+      <div class="grid__col grid__col--1-of-5 grid__col--m-1-of-3  grid__col--s-1-of-1">
+        {% if project.thumb %}
+        <img src="/{{ site.theme-path }}/project/{{ project.thumb }}" 
+            alt="{{ project.title }}" 
+            class="listing-thumb"/>
+        {% endif %}
+      </div>
+      <div class="grid__col grid__col--4-of-5 grid__col--m-2-of-3   grid__col--s-1-of-1">
+        <p>{{ project.summary }}</p>
+      </div>
+    </div>
+    
+    {% endfor %}
+    
+    </div>

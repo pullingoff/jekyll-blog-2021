@@ -17,7 +17,7 @@ description: Word Project #3
 
 ​
 
-​​![2018 인디고 베스트셀러](http://mintaco.github.io/assets/wordProject/3-1.png)
+​​![2018 인디고 베스트셀러](http://pullingoff.github.io/assets/wordProject/3-1.png)
 
 
 2018 Indigo(북미 대형 서점) 베스트셀러
@@ -27,7 +27,7 @@ description: Word Project #3
 긴 말은 뒤로 하고 사진을 보자.
 
 ​
-![](http://mintaco.github.io/assets/wordProject/3-2.png)
+![](http://pullingoff.github.io/assets/wordProject/3-2.png)
 
 그렇 ㄷ ㅑ.
 
@@ -63,7 +63,7 @@ description: Word Project #3
 
 27번 줄까지는 지금까지 해온 것들과 방법이 같아서 따로 첨부하지 않았음!
 
-![](http://mintaco.github.io/assets/wordProject/3-3.png)
+![](http://pullingoff.github.io/assets/wordProject/3-3.png)
 요로코롬 코드를 쳐서 보면
 
 ​
@@ -76,7 +76,7 @@ description: Word Project #3
 
 이런 결과가 나온다.
 
-![](http://mintaco.github.io/assets/wordProject/3-4.png)
+![](http://pullingoff.github.io/assets/wordProject/3-4.png)
 
 1위는 약 300권의 책 중에 45권으로 **'문학동네'**
 
@@ -92,7 +92,7 @@ description: Word Project #3
 
 긴 말은 제가 어제 남긴 먹먹문으로 대신합니다.
 
-![](http://mintaco.github.io/assets/wordProject/3-5.png)
+![](http://pullingoff.github.io/assets/wordProject/3-5.png)
 ​
 
 그 뒤론 열린책들(14권) / 창비(11권) / 마음산책(9권)
@@ -107,7 +107,7 @@ description: Word Project #3
 
 이쯤에서 다시 궁금한게 생겼다. 과연 이 출판사들의 책들 중에서 **어떤 시리즈가 가장 많을까?** 하는 것이었다.
 
-​![](http://mintaco.github.io/assets/wordProject/3-6.png)
+​![](http://pullingoff.github.io/assets/wordProject/3-6.png)
 
 
 !is.na 라는 명령어를 처음 사용했는데, na(결측치)가 !(아닌) 것만 필터링해 결과를 뽑아낸다는 뜻이다.
@@ -123,7 +123,7 @@ description: Word Project #3
 **View(num)**
 
 ​
-![](http://mintaco.github.io/assets/wordProject/3-7.png)
+![](http://pullingoff.github.io/assets/wordProject/3-7.png)
 
 이런 결과가 나온다.
 
@@ -135,13 +135,13 @@ select를 해서 그 시리즈 번호에 맞는 시리즈명을 나오게 하고
 
 예를 들면
 
-![](http://mintaco.github.io/assets/wordProject/3-8.png)
+![](http://pullingoff.github.io/assets/wordProject/3-8.png)
 
 이런 식으로 같은 문동 세계문학전집이면 시리즈 번호는 같지만 135번, 79번으로 완전히 같은 변수를 갖지 않는다. 그래서 전처리를 하지 않으면 같이 묶어낼 수 없다.
 
 ​
 
-![](http://mintaco.github.io/assets/wordProject/3-9.png)
+![](http://pullingoff.github.io/assets/wordProject/3-9.png)
 
 *gsub을 사용해서 series컬럼의 모든 숫자들을 지우려고 했는데 작동이 되지 않았고 해결책을 찾지 못했다. 아시는 분 댓글 남겨주세요ㅜㅜ*
 
@@ -161,13 +161,13 @@ select를 해서 그 시리즈 번호에 맞는 시리즈명을 나오게 하고
 
 ​
 
-​![](http://mintaco.github.io/assets/wordProject/3-10.png)
+​![](http://pullingoff.github.io/assets/wordProject/3-10.png)
 
 
 
 
 
-![](http://mintaco.github.io/assets/wordProject/3-11.jpeg)
+![](http://pullingoff.github.io/assets/wordProject/3-11.jpeg)
 **1위 민음사 세계문학전집**
 
 ....... 말할 필요가 없다 난 스카이캐슬 보면서 우주네 집에 이 시리즈 쫙 꽂혀있는거 보고 이러니까 사교육없이도 우주가 예서 못지않게 공부를 잘 하죠! (왈칵) 한 사람이다. 우주짱! 우주네 가족짱! (이수임 씨 제 이모랑 똑같이 생기셔서 저 한서진씨보다 이수임씨 편입니다 혜나우주 밉니다 저.)
@@ -178,7 +178,7 @@ select를 해서 그 시리즈 번호에 맞는 시리즈명을 나오게 하고
 
 
 
-![](http://mintaco.github.io/assets/wordProject/3-12.jpg)
+![](http://pullingoff.github.io/assets/wordProject/3-12.jpg)
 
 **2위 문학동네 세계문학전집**
 
@@ -190,7 +190,7 @@ select를 해서 그 시리즈 번호에 맞는 시리즈명을 나오게 하고
 
 ​
 
-​![](http://mintaco.github.io/assets/wordProject/3-13.png) ![](http://mintaco.github.io/assets/wordProject/open.jpg)
+​![](http://pullingoff.github.io/assets/wordProject/3-13.png) ![](http://pullingoff.github.io/assets/wordProject/open.jpg)
 
 **3위 열린책들 세계문학**
 
@@ -204,8 +204,8 @@ select를 해서 그 시리즈 번호에 맞는 시리즈명을 나오게 하고
 ​
 
 ​
-![](http://mintaco.github.io/assets/wordProject/3-14.jpg)
-![](http://mintaco.github.io/assets/wordProject/ga.jpg)
+![](http://pullingoff.github.io/assets/wordProject/3-14.jpg)
+![](http://pullingoff.github.io/assets/wordProject/ga.jpg)
 **4위 민음사 모던클래식**
 
 원래 4,5위를 소개한 적은 없지만 이번엔 소개할 거다 왜냐면 디자인이 참 예쁘고 말그대로 '모던 클래식'이라 내가 정말 X10000000 좋아하는 시리즈이기 때문! (나는 고전을 별로 안 좋아하는 타입이라 세계문학전집보다 이 시리즈를 더 사랑한다.... ) 패밀리데이때 가장 많이 쟁일 시리즈이다.
@@ -246,7 +246,7 @@ select를 해서 그 시리즈 번호에 맞는 시리즈명을 나오게 하고
 
 - 끝 -
 ​
-<script src="https://gist.github.com/mintaco/1400e4e5bb6baac1c8e676f56fb34157.js"></script>
+<script src="https://gist.github.com/pullingoff/1400e4e5bb6baac1c8e676f56fb34157.js"></script>
 ​
 
 ​

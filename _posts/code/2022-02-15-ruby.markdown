@@ -8,8 +8,7 @@ tag:
 - github page
 - ruby
 - jekyll
-nav-class: blogs
-# permalink: blogs/rubyerror/
+nav-class: blog
 category: code
 author: Hailey Park
 description: Facing with many errors while setting up a Jekyll github page...
@@ -50,14 +49,14 @@ I followed his track and reinstalled homebrew, ruby, and jekyll.
 And after 'bundle exec jekyll serve', 
 
 ```
- ~/H/mintaco.github.io  on master !4  bundle exec jekyll serve
-Configuration file: /Users/blah/blah/mintaco.github.io/_config.yml
-            Source: /Users/blah/blah/mintaco.github.io
-       Destination: /Users/blah/blah/mintaco.github.io/_site
+ ~/H/pullingoff.github.io  on master !4  bundle exec jekyll serve
+Configuration file: /Users/blah/blah/pullingoff.github.io/_config.yml
+            Source: /Users/blah/blah/pullingoff.github.io
+       Destination: /Users/blah/blah/pullingoff.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
                     done in 2.645 seconds.
- Auto-regeneration: enabled for '/Users/blah/blah/mintaco.github.io'
+ Auto-regeneration: enabled for '/Users/blah/blah/pullingoff.github.io'
                     ------------------------------------------------
       Jekyll 4.2.1   Please append `--trace` to the `serve` command 
                      for any additional information or backtrace. 

@@ -3,7 +3,7 @@ title: 개발자 박하은
 email: haileyhe01@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
-url: "https://mintaco.github.io"
+url: "https://pullingoff.github.io"
 phone: "0000"
 
 theme-path: theme-assets # path to header assets etc
@@ -22,9 +22,9 @@ collections:
   # resume:
   #   output: true
   #   permalink: /resume/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+  # project:
+  #   output: true
+  #   permalink: /projects/:path/
 
 # Build settings
 markdown: kramdown
