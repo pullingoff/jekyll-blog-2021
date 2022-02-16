@@ -3,7 +3,7 @@ layout: resume
 title: Resume
 description: Contact details
 keywords:
-map: 53.742899, -0.350077
+# map: 53.742899, -0.350077
 nav-class: resume
 exclude_from_nav: false
 permalink: /resume/

@@ -1,7 +1,21 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+
+<article>
+
+<h1 class="post-title">{{ page.title }}</h1>
+
+<div class="post-content">
+{{ content }}
+</div>
+
 <div class="page-listing">
 
-    {% assign items = site.project  | sort: 'date'%}
-    {% for post in site.project reversed %}
+    {% assign items = site.cs  | sort: 'date' | reverse %}
+    {% for post in site.cs %}
     <div class="listing blogListing"> 
         <div class="imgWrapper">
             {% if post.thumbnail %}
@@ -25,3 +39,5 @@
     {% endfor %}
     
     </div>
+
+</article>
