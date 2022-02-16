@@ -8,12 +8,13 @@ html {
   background-color: $color-pale-bg;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  // font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 //   font-family: 'Pretendard-Regular', sans-serif;
 //    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 }
 
 body {
+  font-family: 'Noto Sans KR', sans-serif;
   color: $color-main;
   line-height: 1.4;
   margin: 0;
@@ -36,7 +37,7 @@ summary {
 
 h1, h2, h3, h4 {
   font-weight: bold;
-  font-family: $font-bold
+  // font-family: $font-bold
 }
 
 h1 {
@@ -60,12 +61,12 @@ h2 {
 h3 {font-size: 1.2rem;}
 
 p {
-  font-family: $font-light;
+  // font-family: $font-light;
 }
 
 b,
 strong {
-  font-weight: $font-semi-bold;
+  // font-weight: $font-semi-bold;
   //color: #000;
 
 }

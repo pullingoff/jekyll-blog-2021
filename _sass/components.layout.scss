@@ -57,18 +57,19 @@ h1.post-title {
 }
 
 .resume-Email {
-  font-size:15px;font-family:$font-thin;margin:6px 0;
+  font-size:15px; //font-family:$font-thin;
+  margin:6px 0;
 }
 
 .resume-Explain {
   font-size: 15px;
-margin: 10px 0 20px;line-height: 20px;font-family: $font-medium;
+margin: 10px 0 20px;line-height: 20px;//font-family: $font-medium;
 }
 
 .resume-SectionHeader {
   width: 100%;
 margin: 50px 0 10px;font-size: 22px;
-color: #696969;font-family:$font-extra-bold
+color: #696969;//font-family:$font-extra-bold
 }
 
 .resume-Section {
@@ -79,7 +80,8 @@ margin-bottom: 20px;
 }
 
 .resume-Org {
-  font-family: $font-medium;font-size: 20px
+  //font-family: $font-medium;
+  font-size: 20px
 }
 
 .resume-jobDate {
