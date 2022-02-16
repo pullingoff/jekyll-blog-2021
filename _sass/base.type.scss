@@ -78,8 +78,12 @@ p strong, li strong {
 ul, ol, article {
   list-style: none;
   margin-bottom: 1rem;
+  padding: 2vw;
 }
 
+article {
+  line-height: 170%;
+}
 abbr {
   text-decoration: none;
   border-bottom-width: 0;

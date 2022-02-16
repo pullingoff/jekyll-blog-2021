@@ -4,9 +4,11 @@
 
 .nav-logo {
 	float: left;
-	width: 3rem;
+	position: relative;
+    bottom: -15px;
+    margin-left: 1.5rem;
+	width: 4rem;
 	margin-top: 1rem;
-	margin-right: 1rem;
 	opacity: 0.75;
 }
 
