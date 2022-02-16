@@ -37,7 +37,6 @@ summary {
 
 h1, h2, h3, h4 {
   font-weight: bold;
-  // font-family: $font-bold
 }
 
 h1 {
@@ -61,14 +60,13 @@ h2 {
 h3 {font-size: 1.2rem;}
 
 p {
-  // font-family: $font-light;
+  font-weight: 300;
 }
 
 b,
 strong {
-  // font-weight: $font-semi-bold;
-  //color: #000;
-
+  font-weight: 600;
+  color: #000;
 }
 
 p strong, li strong {
