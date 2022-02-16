@@ -1,5 +1,6 @@
 ---
 layout: default
+# cs 글 하나하나의 페이지
 ---
 
 <div class="wrapper">
@@ -12,32 +13,5 @@ layout: default
 {{ content }}
 </div>
 
-<div class="page-listing">
-
-    {% assign items = site.cs  | sort: 'date' | reverse %}
-    {% for post in site.cs %}
-    <div class="listing blogListing"> 
-        <div class="imgWrapper">
-            {% if post.thumbnail %}
-                <img src="{{ post.thumbnail }}">
-            {% else %}
-                <div style="padding:12px;text-align: center;">
-                    <span role="img" style="font-size: 20px;"></span>
-                </div>
-            {% endif %}
-        </div>
-        <h2 style="padding-right: 5px;">
-            <a class="post-link" 
-                href="{{ post.url | prepend: site.baseurl }}" 
-                title="Read more: {{ post.title }}">{{ post.title }}</a>
-                <span class="inline-post-date">/ {{ post.date | date: "%b %-d, %Y" }}</span>
-        </h2>
-        <!-- <p>
-            <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>
-        </p> -->
-    </div>
-    {% endfor %}
+{% include listing-cs.html %}
     
-    </div>
-
-</article>

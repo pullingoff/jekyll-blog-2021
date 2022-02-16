@@ -1,6 +1,6 @@
 ---
 title: "구글 개발자그룹 'Try! Flutter' 이벤트에 오거나이저로 참여했다."
-layout: project
+layout: post
 date: 2019-07-20 01:20
 tag:
 - project

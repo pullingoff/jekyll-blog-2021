@@ -9,7 +9,7 @@ tag:
 - ruby
 - jekyll
 nav-class: blog
-category: code
+category: Code
 author: Hailey Park
 description: Facing with many errors while setting up a Jekyll github page...
 ---

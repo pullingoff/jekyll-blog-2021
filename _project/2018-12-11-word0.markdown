@@ -1,6 +1,6 @@
 ---
 title: "[R] 낱말 프로젝트 00: Introduction"
-layout: project
+layout: post
 date: 2018-12-11 12:20
 bannerpic: /assets/wordProject/markdown.jpg
 headerImage: false

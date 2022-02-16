@@ -1,6 +1,6 @@
 ---
 title: "After working as a volunteer for JunctionX Seoul"
-layout: project
+layout: post
 date: 2019-05-13 01:00
 # bannerpic: /assets/wordProject/markdown.jpg
 # headerImage: false
@@ -12,7 +12,7 @@ tag:
 - 프로그래밍
 - IT
 nav-class: project
-category: blog
+category: Blog
 author: Hailey Park
 description:
 ---
