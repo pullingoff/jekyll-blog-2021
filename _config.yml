@@ -23,9 +23,16 @@ collections:
   cs:
     output: true
     permalink: /cs/:path/
+  fe:
+    output: true
+    permalink: /fe/:path/
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 future: true
 timezone: Asia/Seoul
 plugins:
