@@ -21,9 +21,23 @@ body {
   font-size: 1.2rem;
 }
 
-.mainPost { 
- font-weight: 400; 
+// table
+#indexParentTb {
+  margin: 3% 0 0 10%;
 }
+.mainPost { 
+ font-weight: 500; 
+ font-size: 1.2rem;
+ width: 20%;
+ text-align:right;
+ padding-right:3%;
+ vertical-align: top;
+}
+
+#indexNestTb{
+  width: 75%;
+}
+
 .imgWrapper {
   width: 20vw;
   min-width: 20vw;

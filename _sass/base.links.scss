@@ -32,7 +32,7 @@ h2.external-url a:after {
 	transition: all 0.1s linear;
 }
 
-h2.external-url a:hover:after {background: lighten($theme1, 20%); color: #fff;}
+h2.external-url a:hover:after {background: lighten($theme1, 5%); color: #fff;}
 
 .read-more {
 	display: block;
@@ -61,7 +61,7 @@ p + .read-more {
 	margin-bottom: 2rem;
 }
 .read-more-button:hover, .back-button:hover {
-		background: lighten($color-pale-bg, 15%);
+		background: lighten($color-pale-bg, 5%);
 	}
 
 a:focus {outline:none;}
