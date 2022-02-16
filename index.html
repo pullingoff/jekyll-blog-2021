@@ -7,27 +7,27 @@ nav-class: home
 ---
 
 <div class="wrapper">
+  <h1 id="helloH1">안녕하세요 🙋‍♀️ </h1>
   <p id="homeSiteDescription">
-  <h1 style="padding-top:0;">안녕하세요 🙋‍♀️ </h1>
-  "거미는 자신의 실로써  공간의 자유에  이른다." </br>
-      좋아하는 책 중 하나인 ‘저지대’에 나오는 구절입니다.   
-    궁금한 것에 도전하고, 나아갈 방향을 탐구하는 제 모습이 거미와 같다고 느꼈습니다.  
-    마케팅을 전공하고 데이터 분석을 공부하다가 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.
-    요즘은 파이썬과 프론트엔드를 열심히 공부하고 있습니다.
+  <strong>"거미는 자신의 실로써 공간의 자유에  이른다." </strong><br/>
+    좋아하는 책 ‘저지대’에 나오는 구절입니다.   
+    <strong>궁금한 것에 도전하고, 앞으로 나아가고자 발걸음을 내딛는</strong> 제 모습이 거미와 같다고 느꼈습니다.  
+    <strong>캐나다 토론토에서 마케팅을 전공하고</strong> 데이터 분석을 공부하다가 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.
+    요즘은 <strong>파이썬과 리액트</strong>를 열심히 공부하고 있습니다.
 </p>
 </div>
 
 <section class="cf">
 <div class="wrapper">
   <div class="cateWrapper">
-
+    <h3>카테고리별 최근 글</h3>
     <ul>
       {% for category in site.categories %}
-        <li><a name="{{ category | first }}">{{ category | first }}</a>
+        <li class="mainCate"><a name="{{ category | first }}">{{ category | first }}</a>
           <ul>
             {% for post in category.last limit:3 %}
               {% if post.url %} 
-                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  <li class="mainPost"><a href="{{ post.url }}">{{ post.title }}</a></li>
               {% endif %}
             {% endfor %}
           </ul>
