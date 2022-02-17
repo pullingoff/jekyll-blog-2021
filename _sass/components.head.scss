@@ -1,6 +1,8 @@
 /*------------------------------------*\
     #PAGE-HEAD
 \*------------------------------------*/
+@import "_mixin";
+
 
 .nav-logo {
 	float: left;
@@ -14,4 +16,11 @@
 
 .nav-logo:hover {
 	opacity: 1;
+}
+
+@include mobile { 
+	.nav-logo {
+		margin: 0;
+		width: 3rem;
+	}
 }

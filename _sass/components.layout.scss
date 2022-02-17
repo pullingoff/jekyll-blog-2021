@@ -1,9 +1,21 @@
+@import "_mixin";
+
 html {
 	border-top: 2px solid #fff;
 }
-
+ 
 body {
 	padding: 3rem;
+}
+
+@include mobile {
+  body {
+    padding: 0 1rem 0.3rem 1rem;
+  }
+
+  // h1.post-title {
+  //   font-size: ;
+  // }
 }
 
 .wrapper {
@@ -141,7 +153,7 @@ margin: 2px 0;
 }
 h1.post-title {
   font-weight: bold;
-  font-size:30px;
+  // font-size:30px;
   text-align: left;
 }
 
@@ -158,4 +170,32 @@ h1.post-title {
 
 .post-link:hover {
   color: $theme3;
+}
+
+@include mobile {
+  #indexParentTb {
+    margin: 5% 1%;
+  }
+  .mainPost {
+    font-size: 1.1rem;
+    padding-right: 7%;
+  }
+  .indexNestTb {
+    width: 95%
+  }
+  .resume-SectionHeader{
+    margin-top: 30px;
+  }
+  .resume-Section {
+    margin-bottom: 5px;
+  }
+  .resume-PName {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 0.5rem;
+  }
+  .resume-Explain {
+    line-height: 130%;
+    // margin-to
+  }
 }

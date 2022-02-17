@@ -1,6 +1,7 @@
 /*------------------------------------*\
     #TYPE + resets
 \*------------------------------------*/
+@import "_mixin";
 
 html {
   height: 100%;
@@ -83,6 +84,7 @@ ul, ol, article {
 
 article {
   line-height: 170%;
+  word-break: break-word;
 }
 abbr {
   text-decoration: none;
@@ -233,4 +235,23 @@ cite {display: block; color: $color-text-lighter; margin-top: 0.5rem;}
   max-width: 600px;
   line-height: 1.4;
   color: $color-text-lighter;
+}
+
+
+@include mobile {
+  h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.3rem;
+    font-size: 1.3rem;
+    
+  }
+  h2 {
+    font-size: 1.15rem;
+    line-height: 120%;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+
 }
