@@ -15,7 +15,7 @@ a, a:visited {
 a:active,
 a:hover {
   outline: 0;
-  color: darken($theme1, 10%);
+  color: lighten($theme1, 30%);
 }
 
 h2.external-url a:after {
