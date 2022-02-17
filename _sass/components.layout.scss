@@ -1,9 +1,21 @@
+@import "_mixin";
+
 html {
 	border-top: 2px solid #fff;
 }
-
+ 
 body {
 	padding: 3rem;
+}
+
+@include mobile {
+  body {
+    padding: 0 1rem 0.3rem 1rem;
+  }
+
+  // h1.post-title {
+  //   font-size: ;
+  // }
 }
 
 .wrapper {
@@ -15,6 +27,7 @@ body {
 .blogListing {
   display:flex;
   padding-right: 3vw;
+  height: 20vh;
 }
 
 .mainCate {
@@ -121,10 +134,16 @@ margin: 2px 0;
 }
 
 .imgWrapper {
-  width: 10vw;
-  min-width: 10vw;
-  max-width: 10vw;
-    margin: 5px 20px;
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+  margin: 1rem 3rem 2rem auto;
+  overflow: hidden;
+}
+.imgWrapper img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
 }
 .cateWrapper {
   border-top: 1px solid $theme1;
@@ -141,7 +160,7 @@ margin: 2px 0;
 }
 h1.post-title {
   font-weight: bold;
-  font-size:30px;
+  // font-size:30px;
   text-align: left;
 }
 
@@ -150,6 +169,7 @@ h1.post-title {
 .inline-post-date {
   font-size: xx-small;
   font-weight: 200;
+  margin-top: 3px;
 }
 
 .blogCates {
@@ -158,4 +178,41 @@ h1.post-title {
 
 .post-link:hover {
   color: $theme3;
+}
+
+@include mobile {
+  #indexParentTb {
+    margin: 5% 1%;
+  }
+  .mainPost {
+    font-size: 1.1rem;
+    padding-right: 7%;
+  }
+  .indexNestTb {
+    width: 95%
+  }
+
+  .blogListing {
+    height: 13vh;
+  }
+  .imgWrapper {
+    margin: 1rem;
+    margin-left: 0;
+  }
+
+  .resume-SectionHeader{
+    margin-top: 30px;
+  }
+  .resume-Section {
+    margin-bottom: 5px;
+  }
+  .resume-PName {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 0.5rem;
+  }
+  .resume-Explain {
+    line-height: 130%;
+    // margin-to
+  }
 }

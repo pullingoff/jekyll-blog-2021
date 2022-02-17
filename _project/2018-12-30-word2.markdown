@@ -2,9 +2,7 @@
 title: "[R] 낱말 프로젝트 02: Fields"
 layout: post
 date: 2018-12-30 11:32
-# bannerpic: /assets/wordProject/markdown.jpg
-# headerImage: false
-# projects : true
+thumbnail: http://pullingoff.github.io/assets/wordProject/2-2.png
 tag:
 - project
 - 낱말프로젝트

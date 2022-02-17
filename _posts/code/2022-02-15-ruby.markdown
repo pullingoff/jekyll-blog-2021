@@ -1,8 +1,8 @@
 ---
-title: 맥 os montery에서 jekyll serve 시 권한 에러가 뜨는 경우 (jekyll serve Permission Error on Mac OS Monterey)
+title: 맥 os montery에서 jekyll serve 시 Permission Error
 layout: post
 date: 2022-02-15 11:00
-# headerImage: false
+thumbnail: /assets/code/monterey.png
 tag:
 - blog
 - github page

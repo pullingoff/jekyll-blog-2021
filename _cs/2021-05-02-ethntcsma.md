@@ -2,6 +2,7 @@
 title: "[네트워크] Ethernet and CSMA/CD"
 layout: post
 date: 2021-05-02 08:00
+thumbnail: https://sf.ezoiccdn.com/ezoimgfmt/networkencyclopedia.com/wp-content/uploads/2019/08/csma-cd.jpg?ezimgfmt=ng:webp/ngcb2
 tag:
 - nw
 - cs
@@ -27,7 +28,8 @@ description: Ready Techie 5월 모임에 이더넷과 CSMA/ CD 통신이란 무�
 
 
 ## Procedure of CSMA/CD communication
-<img src="https://en.vcenter.ir/wp-content/uploads/2020/07/csma-cd.jpg" width="80%">
+<img src="https://sf.ezoiccdn.com/ezoimgfmt/networkencyclopedia.com/wp-content/uploads/2019/08/csma-cd.jpg?ezimgfmt=ng:webp/ngcb2" width="80%">
+reference: https://sf.ezoiccdn.com/ezoimgfmt/networkencyclopedia.com/
 
 1. **[Carrier Sense]** A PC or server checks if someone is using the network's resource.
 2. If a carrier's detected, it holds sending the frame onto the network.
