@@ -2,12 +2,10 @@
 title: "구글 개발자그룹 'Try! Flutter' 이벤트에 오거나이저로 참여했다."
 layout: post
 date: 2019-07-20 01:20
+thumbnail: /assets/images/tf0.jpg
 tag:
 - project
-- Flutter
 - Google
-- Design
-- Festa
 nav-class: project
 category: project
 author: Hailey Park
@@ -24,19 +22,19 @@ These are size-adjusted versions for effective upload.
 
 
 
-![](http://pullingoff.github.io/assets/wordProject/tf0.jpg)
+![](http://pullingoff.github.io/assets/images/tf0.jpg)
 **Festa Banner / 1600x900 px, RGB/ Photoshop and Illustrator**
 <br>
 
 
 
-![Main Banner](http://pullingoff.github.io/assets/wordProject/tf1.jpg)
+![Main Banner](http://pullingoff.github.io/assets/images/tf1.jpg)
 **Main Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator**
 <br>
 
 
 
-![](http://pullingoff.github.io/assets/wordProject/tf2.jpg)
+![](http://pullingoff.github.io/assets/images/tf2.jpg)
 **Location Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator**
 
 <br>
