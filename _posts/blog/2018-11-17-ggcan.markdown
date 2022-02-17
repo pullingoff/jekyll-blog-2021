@@ -2,11 +2,9 @@
 title: "DATA DRIVEN 2.0 @ Google Toronto"
 layout: post
 date: 2018-11-17 08:00
-thumbnail: /assets/images/google_CA_Post/can5.jpeg
-# bannerpic: false
+thumbnail: /assets/images/ggCA/can5.jpeg
 tag:
 - blog
-- DATA
 - Data Journalism
 - Google
 nav-class: blog
@@ -15,41 +13,25 @@ author: Hailey Park
 description: Joined a terrific event about Data Journalism.
 ---
 
-<img src="http://pullingoff.github.io/assets/images/google_CA_Post/can0.png" width="600">
- *from https://humber.ca/today/events/data-driven-20-54102*
+<img src="{{ site.baseurl }}/assets/images/ggCA/can0.png" width="600"/>
+학교에서 구글 캐나다의 데이터 저널리즘에 대한 강연이 있다길래 바로 티켓을 예매했다!  
+티켓 링크는 from https://humber.ca/today/events/data-driven-20-54102  
 
-
-
-<img src="http://pullingoff.github.io/assets/images/google_CA_Post/can2.jpeg" width="600">
-
-
-
-
+<img src="{{ site.baseurl }}/assets/images/ggCA/can2.jpeg" width="600"/>
 학교 미디어학부랑 구글 캐나다가 진행하는 컨퍼런스에 다녀왔다. 주제는 'data journalism'이었다. admission 마감 엄청 빨리 됐던데 신청해놓고 안 온 사람들 많아서 쾌적했음. 구글 캐나다 본사라 한 건물 차지하고 있을 줄 알았는데 아니라 놀랐고, 천장이 굉장히 낮았다.
 
-
-
-
-<img src="http://pullingoff.github.io/assets/images/google_CA_Post/can4.jpg" width="600">
-
+<img src="{{ site.baseurl }}/assets/images/ggCA/can4.jpg" width="600"/>
 정말 맛있었던 점심.
 
 
-<img src="http://pullingoff.github.io/assets/images/google_CA_Post/can5.jpeg" width="600">
-
-
-
+<img src="{{ site.baseurl }}/assets/images/ggCA/can5.jpeg" width="600"/>
 
 **데이터 분석과 마케팅은 '스토리 텔링'이 핵심이라는 점에서 같은 맥락이라고 생각했다. 아무리 흥미로운 데이터 결과를 도출해내더라도 그게 무슨 의미인지, 무슨 가치를 가지고 있는지 정확한 타겟에게 이해하기 쉬운 방식으로 설명할 수 없으면 그 데이터는 가치를 가질 수 없다. 마케팅 또한 그 소비자가 그 물건을 구매해야하는 이유, 스토리가 없으면 그 상품은 가치를 지니지 못하게 된다. 이 두개가 매력적인 이유.**
 
 
-
-
-<img src="http://pullingoff.github.io/assets/images/google_CA_Post/can7.jpeg" width="600">
-
+<img src="{{ site.baseurl }}/assets/images/ggCA/can7.jpeg" width="600"/>
 
 오늘 참석했던 행사 완전 Motivating.. 캐나다 온 순간부터 내 comfort zone에서 벗어났으니까 불편하고 힘든 거 당연한건데 그걸 잊고 지쳐가고 있었다. 의사소통부터가 완벽하게 안되니 편안할 수 없는게 당연한건데.. 그렇게 comfort zone에서 벗어나서 press forward하고 싶었으면서 몽총이다 몽총이야.<
 
 
-
-<img src="http://pullingoff.github.io/assets/images/google_CA_Post/can8.jpg" width="600">
+<img src="{{ site.baseurl }}/assets/images/ggCA/can8.jpg" width="600"/>
