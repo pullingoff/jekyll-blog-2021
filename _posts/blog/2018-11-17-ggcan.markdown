@@ -2,7 +2,7 @@
 title: "DATA DRIVEN 2.0 @ Google Toronto"
 layout: post
 date: 2018-11-17 08:00
-# bannerpic: /assets/images/markdown.jpg
+thumbnail: /assets/images/google_CA_Post/can5.jpeg
 # bannerpic: false
 tag:
 - blog

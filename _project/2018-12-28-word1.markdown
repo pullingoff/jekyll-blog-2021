@@ -2,9 +2,7 @@
 title: "[R] 낱말 프로젝트 01: Words"
 layout: post
 date: 2018-12-28 19:02
-bannerpic: /assets/wordProject/markdown.jpg
-headerImage: false
-# projects : true
+thumbnail: /assets/wordProject/1-1.png
 tag:
 - project
 - wordproject

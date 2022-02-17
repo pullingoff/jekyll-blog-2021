@@ -2,9 +2,7 @@
 title: "[R] 낱말 프로젝트 00: Introduction"
 layout: post
 date: 2018-12-11 12:20
-bannerpic: /assets/wordProject/markdown.jpg
-headerImage: false
-# projects: true
+thumbnail: /assets/wordProject/frog.png
 tag:
 - project
 - 낱말프로젝트
