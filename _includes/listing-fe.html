@@ -16,11 +16,9 @@
             <a class="post-link" 
                 href="{{ post.url | prepend: site.baseurl }}" 
                 title="Read more: {{ post.title }}">{{ post.title }}</a>
-                <span class="inline-post-date">/ {{ post.date | date: "%b %-d, %Y" }}</span>
+                <div class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
         </h2>
-        <!-- <p>
-            <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>
-        </p> -->
+        
     </div>
     {% endfor %}
     
