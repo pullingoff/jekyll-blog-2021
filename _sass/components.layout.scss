@@ -99,6 +99,7 @@ margin: 5px 0;
 }
 
 .resume-PExplain {
+  font-weight: 300;
   font-size: 14px;
   margin-top:1px;
   margin-bottom: 7px;
@@ -169,6 +170,9 @@ h1.post-title {
   text-align: left;
 }
 
+.retroA {
+  font-weight: 500;
+}
 
 // blog.html
 .inline-post-date {
@@ -183,6 +187,11 @@ h1.post-title {
 
 .post-link:hover {
   color: $theme3;
+}
+
+.contentSummary {
+  font-size: 0.7rem;
+  margin: 0;
 }
 
 @include mobile {

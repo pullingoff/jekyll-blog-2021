@@ -9,12 +9,14 @@ nav-class: home
 <div class="wrapper">
   <h1 id="helloH1">안녕하세요 🙋‍♀️ </h1>
   <p id="homeSiteDescription">
-  <strong>"거미는 자신의 실로써 공간의 자유에  이른다." </strong><br/>
-    좋아하는 책 ‘저지대’에 나오는 구절입니다.   
-    <strong>궁금한 것에 도전하고, 앞으로 나아가고자 발걸음을 내딛는</strong> 제 모습이 거미와 같다고 느꼈습니다.  
-    <strong>캐나다 토론토에서 마케팅을 전공하고</strong> 데이터 분석을 공부하다 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.
-    요즘은 <strong>파이썬과 리액트</strong>를 열심히 공부하고 있습니다.
-</p>
+    <a href="/resume" target="_blank">
+      <strong>"거미는 자신의 실로써 공간의 자유에  이른다." </strong><br/>
+        좋아하는 책 ‘저지대’에 나오는 구절입니다.   
+        <strong>궁금한 것에 도전하고, 앞으로 나아가고자 발걸음을 내딛는</strong> 제 모습이 거미와 같다고 느꼈습니다.  
+        <strong>캐나다 토론토에서 마케팅을 전공하고</strong> 데이터 분석을 공부하다 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.
+        요즘은 <strong>파이썬과 리액트</strong>를 열심히 공부하고 있습니다.
+    </a>
+  </p>
 </div>
 
 <section class="cf">
@@ -24,7 +26,8 @@ nav-class: home
     <table id="indexParentTb">
       {% for category in site.categories %}
       <tr>
-        <td class="mainPost"><a name="{{ category | first }}">{{ category | first }}</a></td>
+        <td class="mainPost">
+          <span">{{ category | first }}</a></td>
         <td class="mainTitle">
           <table class="indexNestTb">
             {% for post in category.last limit:3 %}
@@ -39,7 +42,7 @@ nav-class: home
       </tr>
       {% endfor %}
       <tr>
-        <td class="mainPost"><a name="cs">Computer Science</a></td>
+        <td class="mainPost"><span>Computer Science</span></td>
         <td class="mainTitle">
           <table class="indexNestTb">
             {% for c in site.cs limit:3 %}
@@ -53,7 +56,7 @@ nav-class: home
         </td>
       </tr>
       <tr>
-        <td class="mainPost"><a name="fe">FrontEnd</a></td>
+        <td class="mainPost"><span>FrontEnd</span></td>
         <td class="mainTitle">
           <table class="indexNestTb">
             {% for c in site.fe limit:3 %}
@@ -70,8 +73,12 @@ nav-class: home
     <div class="cateWrapper">
       <h1>회고록</h1>
       <ul>
-        <li><a></a></li>
-        <li><a></a></li>
+        <li>
+          <a class="retroA" href="/blog/2022/01/31/retro2021.html">🐥 SI 업계 1년차 개발자의 2021년 회고</a>
+        </li>
+        <li>
+          <a class="retroA" href="/blog/2020/12/25/retro2020.html">🥚 2020년 비전공자 코알못의 사적인 회고 </a>
+        </li>
       </ul>
     </div>
   </div>
