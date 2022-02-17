@@ -1,7 +1,7 @@
 ---
 layout: fe
 title: FrontEnd
-description: 프론트엔드 개봘
+description: 프론트엔드 관련글 🎨
 keywords: fe
 category: fe
 nav-class: fe
