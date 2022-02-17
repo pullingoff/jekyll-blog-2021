@@ -2,7 +2,7 @@
 title: "SI 업계 1년차 개발자의 2021년 회고"
 layout: post
 date: 2022-01-31 08:00
-thumbnail: https://user-images.githubusercontent.com/50111853/154459623-2d0c89ff-ee21-4317-bc90-0d4e66819f35.jpeg
+thumbnail: /assets/retro/1.jpeg
 tag:
 - blog
 - retrospect
@@ -12,10 +12,11 @@ author: Hailey Park
 description: 2021년을 되돌아보았다.
 ---
 
+
 ### 1분기(1~3월)
 <div style='display:flex;'>
-<img style='width:auto;max-width:50%;height:500px;' src='https://user-images.githubusercontent.com/50111853/154459623-2d0c89ff-ee21-4317-bc90-0d4e66819f35.jpeg' alt='2021년 1분기 회사앞에서 썰매'/>
-<img src='https://user-images.githubusercontent.com/50111853/154459709-cac31eb5-6c59-45fe-90db-4cb4fad2b74e.jpeg' style='width:auto;max-width:50%;height:500px;' alt='회사 앞에서' />
+<img style='width:auto;max-width:50%;height:500px;' src='{{ site.baseurl }}/assets/retro/1.jpeg' alt='2021년 1분기 회사앞에서 썰매'/>
+<img src='{{ site.baseurl }}/assets/retro/2.jpeg' style='width:auto;max-width:50%;height:500px;' alt='회사 앞에서' />
 </div>
 - 작년 12월 중순에 입사했기 때문에, 완전 초초초신입 
 - 프로젝트 세개를 연달아 했는데 자바 인공지능 프레임워크 부터 php, js 등등 다양하게 써볼 수 있어서 재미있었다. 
@@ -24,8 +25,8 @@ description: 2021년을 되돌아보았다.
 
 ### 2분기(4~6월)
 <div style='display:flex'>
-<img src='https://user-images.githubusercontent.com/50111853/154460377-d96c851b-0c24-4ead-8d6a-fc1b6ad61d76.jpeg' style='width:auto;max-width:50%;height:500px;' alt='국정자원 출입증'/>
-<img src='https://user-images.githubusercontent.com/50111853/154460489-ca382881-3712-4f0a-b892-8e86953785d5.png' style='width:auto;max-width:50%;height:500px;' alt='회사 앞에서' />
+<img src='{{ site.baseurl }}/assets/retro/3.jpeg' style='width:auto;max-width:50%;height:500px;' alt='국정자원 출입증'/>
+<img src='{{ site.baseurl }}/assets/retro/4.png' style='width:auto;max-width:50%;height:500px;' alt='회사 앞에서' />
 </div>
 
 - 스터디 관련해 정부 지원금을 받았는데, 스터디장으로서 그 지출을 관리하고 증빙 서류를 준비하는 것들이 복잡하게 느껴졌고, 그 돈을 어떻게 하면 현명하게 사용할 수 있을까 고민을 많이 했다.
@@ -35,8 +36,8 @@ description: 2021년을 되돌아보았다.
 
 ### 3분기(7~9월)
 <div style='display:flex'>
-<img style='width:auto;max-width:50%;height:500px;' src='https://user-images.githubusercontent.com/50111853/154461241-f36d84f3-9923-4093-822d-585416f4f23d.jpeg' alt='꿈돌이랑 사진'/>
-<img style='width:auto;max-width:50%;height:500px;' src='https://user-images.githubusercontent.com/50111853/154465021-9e196cdd-6e74-4af4-b5cc-232ab7dd383b.jpeg' alt='스타벅스에서 노트북' />
+<img style='width:auto;max-width:50%;height:500px;' src='{{ site.baseurl }}/assets/retro/5.jpeg' alt='꿈돌이랑 사진'/>
+<img style='width:auto;max-width:50%;height:500px;' src='{{ site.baseurl }}/assets/retro/6.jpeg' alt='스타벅스에서 노트북' />
 </div>
 
 - 파이썬에 흥미를 느껴 장고를 써보고 싶어졌다. MDN의 도서관 사이트 튜토리얼을 따라해보면서 공부를 시작했는데, 두번 반복해보니까 장고로 만든 웹의 동작 구조가 잘 이해돼서 넘 좋았다!!! 
@@ -45,8 +46,8 @@ https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Tutorial_local_li
 
 ### 4분기(10~12월)
 <div style='display:flex'>
-<img style='width:auto;max-width:50%;height:500px;' src='https://user-images.githubusercontent.com/50111853/154465318-f6d5db18-d2d6-413b-8139-9cbc055e6c40.jpeg' alt='클라이밍 벽'/>
-<img style='width:auto;max-width:50%;height:500px;' src='https://user-images.githubusercontent.com/50111853/154465554-29889386-eecf-4133-85c1-8207c01d33e7.jpeg' alt='요거트' />
+<img style='width:auto;max-width:50%;height:500px;' src='{{ site.baseurl }}/assets/retro/7.jpeg' alt='클라이밍 벽'/>
+<img style='width:auto;max-width:50%;height:500px;' src='{{ site.baseurl }}/assets/retro/8.jpeg' alt='요거트' />
 </div>
 
 - 모델링을 하고 그 모델대로 neo4j에 노드, 엣지를 생성하는 파이썬 코드도 구현했다. 모델에 어떤 자료구조를 쓰면 좋을까 고민을 많이 했다(딕셔너리->클래스->데이터클래스 etc). 처음부터 제대로 설계를 했으면 좋았을 걸...하고 생각했다. 이럴때 삽질해보면 좋지!!하는 생각이지만 다음번에는 삽질을 무조건 덜하자! 

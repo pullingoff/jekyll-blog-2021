@@ -2,7 +2,7 @@
 title: "코드스테이츠 Pre course를 통해 프로그래밍을 배우면서 느낀 것"
 layout: post
 date: 2020-02-18 08:00
-thumbnail: https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+thumbnail: /assets/images/cod.jpeg
 tag:
 - blog
 nav-class: blog
