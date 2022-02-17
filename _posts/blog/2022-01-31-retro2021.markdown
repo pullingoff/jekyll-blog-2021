@@ -2,7 +2,7 @@
 title: "SI 업계 1년차 개발자의 2021년 회고"
 layout: post
 date: 2022-01-31 08:00
-thumbnail: https://media.vlpt.us/images/hailey99/post/e7147b38-3f59-4462-a61a-15d9e9b0b333/roman-synkevych-UT8LMo-wlyk-unsplash.jpeg
+thumbnail: https://user-images.githubusercontent.com/50111853/154459623-2d0c89ff-ee21-4317-bc90-0d4e66819f35.jpeg
 tag:
 - blog
 - retrospect
