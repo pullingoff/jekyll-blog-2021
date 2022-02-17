@@ -27,6 +27,7 @@ body {
 .blogListing {
   display:flex;
   padding-right: 3vw;
+  height: 20vh;
 }
 
 .mainCate {
@@ -133,10 +134,16 @@ margin: 2px 0;
 }
 
 .imgWrapper {
-  width: 10vw;
-  min-width: 10vw;
-  max-width: 10vw;
-    margin: 5px 20px;
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+  margin: 1rem 3rem 2rem auto;
+  overflow: hidden;
+}
+.imgWrapper img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
 }
 .cateWrapper {
   border-top: 1px solid $theme1;
@@ -162,6 +169,7 @@ h1.post-title {
 .inline-post-date {
   font-size: xx-small;
   font-weight: 200;
+  margin-top: 3px;
 }
 
 .blogCates {
@@ -183,6 +191,15 @@ h1.post-title {
   .indexNestTb {
     width: 95%
   }
+
+  .blogListing {
+    height: 13vh;
+  }
+  .imgWrapper {
+    margin: 1rem;
+    margin-left: 0;
+  }
+
   .resume-SectionHeader{
     margin-top: 30px;
   }
