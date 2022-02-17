@@ -1,7 +1,7 @@
 ---
 layout: resume
 title: Resume
-description: Contact details
+description: 제 이력서입니다 😝
 keywords:
 # map: 53.742899, -0.350077
 nav-class: resume
