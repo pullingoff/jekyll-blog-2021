@@ -6,7 +6,7 @@ thumbnail: /assets/images/cod2.jpeg
 tag:
 - blog
 nav-class: blog
-category: Blog
+category: blog
 author: Hailey Park
 description: 리액트로 깃허브 페이지를 만들어보았다!
 ---

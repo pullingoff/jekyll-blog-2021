@@ -6,7 +6,7 @@ thumbnail: /assets/images/cod2.jpeg
 tag:
 - blog
 nav-class: blog
-category: Blog
+category: blog
 author: Hailey Park
 description: 코드스테이츠 Pre course를 통해 프로그래밍을 배우면서 느낀 것
 ---
