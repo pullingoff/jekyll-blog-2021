@@ -30,6 +30,7 @@ nav-class: home
           <span">{{ category | first }}</a></td>
         <td class="mainTitle">
           <table class="indexNestTb">
+            <!-- 여기서 category.last는 blog dir 아래별로 구분됨-->
             {% for post in category.last limit:3 %}
               {% if post.url %} 
               <tr>
