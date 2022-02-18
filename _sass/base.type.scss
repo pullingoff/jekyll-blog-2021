@@ -77,10 +77,14 @@ p strong, li strong {
 }
 
 ul, ol, article {
-  list-style: none;
+  // list-style: none;
   margin-bottom: 1rem;
   padding: 2vw;
 }
+
+// .post-content ol, .post-content ul {
+//   list-style: ;
+// }
 
 article {
   line-height: 170%;
@@ -186,10 +190,10 @@ article ul {
   li {list-style-type: circle;}
 }
 
-article ul, article ol {
-  padding-left: 0;
-  li {margin-left: 0;padding-left: 0;}
-}
+// article ul, article ol {
+//   padding-left: 0;
+//   li {margin-left: 0;padding-left: 0;}
+// }
 
 img {
   border: 0;
