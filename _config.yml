@@ -8,7 +8,7 @@ url: "https://pullingoff.github.io"
 phone: "0000"
 
 theme-path: theme-assets # path to header assets etc
-map-api-key: AIzaSyB3U7uwIvCyq01orxppAIC1v73y-FBGygY
+# map-api-key: AIzaSyB3U7uwIvCyq01orxppAIC1v73y-FBGygY
 sass:
   sass_dir: _sass
   style: compressed

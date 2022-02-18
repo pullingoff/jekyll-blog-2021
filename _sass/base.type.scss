@@ -87,6 +87,7 @@ ul, ol, article {
 // }
 
 article {
+  padding-top: 0;
   line-height: 170%;
   word-break: break-word;
 }
@@ -212,8 +213,8 @@ figure {
 }
 
 .page-content {
-  position: relative;
-  top: -35px;
+  // position: relative;
+  // top: -35px;
   h1, h2, h3, h4, p, ul, ol {
     text-align: left;
   }
