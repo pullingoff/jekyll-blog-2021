@@ -87,13 +87,14 @@ ul, ol, article {
   margin-bottom: 1px;
 }
 
-.post-content p {
-  margin: 1px;
-}
-
-.post-content a {
-  font-weight: 500;
-  text-decoration: underline;
+.post-content {
+  p {
+    margin: 1px;
+  }
+  a {
+    font-weight: 500;
+    text-decoration: underline;
+  }
 }
 
 article {
