@@ -82,9 +82,19 @@ ul, ol, article {
   padding: 2vw;
 }
 
-// .post-content ol, .post-content ul {
-//   list-style: ;
-// }
+.post-content h1,.post-content h2,.post-content h3, .post-content h4 {
+  margin-top: 2.3rem;
+  margin-bottom: 1px;
+}
+
+.post-content p {
+  margin: 1px;
+}
+
+.post-content a {
+  font-weight: 500;
+  text-decoration: underline;
+}
 
 article {
   padding-top: 0;
