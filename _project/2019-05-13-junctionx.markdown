@@ -11,7 +11,7 @@ tag:
 - 프로그래밍
 - IT
 nav-class: project
-category: Blog
+category: blog
 author: Hailey Park
 description:
 ---

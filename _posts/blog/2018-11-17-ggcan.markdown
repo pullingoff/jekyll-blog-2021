@@ -8,7 +8,7 @@ tag:
 - Data Journalism
 - Google
 nav-class: blog
-category: Blog
+category: blog
 author: Hailey Park
 description: Joined a terrific event about Data Journalism.
 ---
