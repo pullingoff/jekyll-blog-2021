@@ -9,25 +9,23 @@ tag:
 - ruby
 - jekyll
 nav-class: blog
-category: Code
+category: blog
 author: Hailey Park
 description: Facing with many errors while setting up a Jekyll github page...
 ---
 
-Facing with many errors while setting up a Jekyll github page, I'm logging it for the people like me.
-
-The problom was, I wanted to run the local server with the instruction
+Facing with many errors while setting up a Jekyll github page, I'm logging it for the people like me.  
+The problom was, I wanted to run the local server with the instruction  
 
 ```
 bundle exec jekyll serve
 ```
 but the terminal showed me **Permission errors**.  
-
-Some said I should **change the system preference to give iTerm the full disk access** but I don't think it was the reason.
-
+Some said I should **change the system preference to give iTerm the full disk access** but I don't think it was the reason.  
 Thanks to Vidyut, I **solved the error** and the helpful link is 
 https://luther.io/macos/how-to-install-latest-ruby-on-a-mac/
 
+-------------------------
 ## To do list 
 - [ ] Delete previous Gemfile.lock
 - [ ] Install Command Line Tools for Xcode
@@ -40,15 +38,13 @@ https://luther.io/macos/how-to-install-latest-ruby-on-a-mac/
 
 
 
-For me, it was the problem **I didn't install 'Command Line Tools for Xcode'.**
-
-Also, you need to remove the **Gemfile.lock** in your github page directory before you install bundle.
-
-I followed his track and reinstalled homebrew, ruby, and jekyll.
-
+For me, it was the problem **I didn't install 'Command Line Tools for Xcode'.**  
+Also, you need to remove the **Gemfile.lock** in your github page directory before you install bundle.  
+I followed his track and reinstalled homebrew, ruby, and jekyll.  
 And after 'bundle exec jekyll serve', 
 
-```
+-------------------------
+``` 
  ~/H/pullingoff.github.io  on master !4  bundle exec jekyll serve
 Configuration file: /Users/blah/blah/pullingoff.github.io/_config.yml
             Source: /Users/blah/blah/pullingoff.github.io
@@ -63,9 +59,9 @@ Configuration file: /Users/blah/blah/pullingoff.github.io/_config.yml
                     ------------------------------------------------
 /Users/blah/.gem/ruby/3.1.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
 ```
-Another error 😂  
-It's just because **webrick got out of the default gem lists.**
-
+-------------------------
+Another error 😂   
+It's just because **webrick got out of the default gem lists.**  
 All you need to do is type
 ```
 bundle add webrick

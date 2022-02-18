@@ -1,0 +1,46 @@
+---
+title: "[대롱대롱] 피그마로 앱 디자인해보기"
+layout: post
+date: 2021-10-20 01:20
+thumbnail: /assets/project/dl1.png
+tag:
+- project
+- 대롱대롱
+nav-class: project
+category: project
+author: Hailey Park
+description: 앱 대롱대롱을 피그마로 디자인해보다
+---
+
+## 대롱대롱?
+<img src='{{ site.baseurl }}/assets/project/km.jpg' alt='' style='max-width:500px;height:auto;'/><br/>
+얼마전 대전 유성구청 **'꿈을 잡고 소모임 지원 사업'**에 선정되어 앱 대롱대롱을 만들게 되었다.
+대롱대롱의 뜻은 대long으로, 대전에 오래 있어줬으면 하는 가게들을 리스트업하는 웹 사이트다.
+아직 자세한 건 기획하지 않았지만, 내가 피그마로 끄적여본 디자인을 올려본다!
+
+---------------------
+## 메인 화면
+<img src='{{ site.baseurl }}/assets/project/dl1.png' alt='' style='width:40%;height:auto;'/><br/>
+웹앱 첫 메인 화면이다. 사이트에 들어오면 처음으로 보이는 화면인데, 위에는 대롱대롱의 뜻을 궁금해하는 사람을 위해 작게 배너를 넣었다. 그리고 GPS 기능을 사용해 사용자 주변에 있는 대롱대롱 가게를 검색할 수 있다. 그 아래 태그는 현재 사람들에게 인기가 많거나 사용자 주변의 유명한 가게와 관련된 태그다. 
+
+---------------------
+## 가게 소개 화면
+<img src='{{ site.baseurl }}/assets/project/dl2.png' alt='' style='width:40%;height:auto;'/><br/>
+가게 소개 화면이다. 해당 업소의 영업시간, 휴무일 등이 나와있다. 
+
+---------------------
+## 내주변 검색 화면
+<img src='{{ site.baseurl }}/assets/project/dl3.png' alt='' style='width:40%;height:auto;'/><br/>
+GPS를 기반으로 내 주변 검색 가게를 할 수 있는 화면이다. 주소를 직접 입력해 검색도 할 수 있다.
+
+---------------------
+## 구별 대롱대롱 모아보기
+<img src='{{ site.baseurl }}/assets/project/dl4.png' alt='' style='width:40%;height:auto;'/><br/>
+대전의 자치구별로 대롱대롱 업소를 모아볼 수 있는 화면이다. 
+
+---------------------
+## 가게 테마별 모아보기 화면
+<img src='{{ site.baseurl }}/assets/project/dl5.png' alt='' style='width:40%;height:auto;'/><br/>
+이 부분은 정말 어떻게 디자인을 해야할지 모르겠어서 배달의민족 어플을 참고했다.
+또 음식만 하기엔 아쉬워서 빵집과 책방도 넣을 생각이다. 
+테마 소개 문구는 다 내가 작성했지만 꽤 잘 적은 것 같다 ㅎㅎ
