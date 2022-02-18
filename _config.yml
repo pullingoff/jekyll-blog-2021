@@ -17,10 +17,10 @@ sass:
 collections:
   resource:
     output: true
-    permalink: /resources/:path/
+    permalink: /resource/:path/
   project:
     output: true
-    permalink: /projects/:path/
+    permalink: /project/:path/
   cs:
     output: true
     permalink: /cs/:path/
