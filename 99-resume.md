@@ -3,7 +3,6 @@ layout: resume
 title: Resume
 description: 제 이력서입니다 😝
 keywords:
-# map: 53.742899, -0.350077
 nav-class: resume
 exclude_from_nav: false
 permalink: /resume/
