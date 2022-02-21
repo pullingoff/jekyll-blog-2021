@@ -11,15 +11,12 @@ body {
 @include mobile {
   body {
     padding: 0 1rem 0.3rem 1rem;
+    .wrapper {
+      max-width: 55rem;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
   }
-  .wrapper {
-    max-width: 55rem;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-  // h1.post-title {
-  //   font-size: ;
-  // }
 }
 
 .wrapper {
