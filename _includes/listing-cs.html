@@ -11,13 +11,14 @@
                 </div>
             {% endif %}
         </div>
-        <h2 class="titleWrapper" style="padding-right: 5px;">
-            <a class="post-link" 
+        <div class="titleWrapper" style="padding-right: 5px;">
+            <h2><a class="post-link" 
                 href="{{ post.url | prepend: site.baseurl }}" 
                 title="Read more: {{ post.title }}">{{ post.title }}</a>
+            </h2>
             <!-- <p class="contentSummary">{{ post.content | strip_html | truncate: 20 }}</p> -->
             <div class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-        </h2>
+        </div>
     </div>
     {% endfor %}
 </div>
