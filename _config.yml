@@ -27,6 +27,9 @@ collections:
   fe:
     output: true
     permalink: /fe/:path/
+  be:
+    output: true
+    permalink: /be/:path/
 
 # Build settings
 markdown: kramdown
