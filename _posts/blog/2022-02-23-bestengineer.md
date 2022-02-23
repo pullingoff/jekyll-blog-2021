@@ -13,10 +13,11 @@ description: 미디엄의 한 글을 읽고 밑줄 치고 싶었던 문장들을
 
 미디엄의 'how to be a 10x engineer'라는 글을 짧게 요약하고 내 생각을 적어본다. 
 
-(글에서 시니어 개발자가 10배 더 나은 개발자고 주니어 개발자는 평범한 개발자라는 느낌을 살짝 주지만, 저자가 의도한 'junior'는 오로지 연차만을 말하는게 아닌 것 같습니다. 'junior developer'라는 단어는 '평범한 개발자'로 의역을 했습니다.)
+(글에서 시니어 개발자가 10배 더 나은 개발자고 주니어 개발자는 평범한 개발자라는 느낌을 살짝 주지만,   
+저자가 의도한 'junior'는 오로지 연차만을 말하는게 아닌 것 같습니다.  
+'junior developer'라는 단어는 '평범한 개발자'로 의역을 했습니다.)
 
-원글 링크: 
-https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5
+[원글 읽으러가기 Click!](https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5)
 
 
 # 최고의 개발자?
@@ -25,7 +26,9 @@ https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5
 
 
 # 최고의 개발자 vs. 평범한 개발자
-는 바로 **소프트 스킬(non-technical skills)**이다. They use the right tools, ask the right questions, and know how to prioritize. **그들은 적시적소에 맞는 툴을 쓰고 적절한 질문을 하며 우선순위를 매길 줄 안다.**
+는 바로 **소프트 스킬(non-technical skills)**이다.  
+They use the right tools, ask the right questions, and know how to prioritize.  
+**그들은 적시적소에 맞는 툴을 쓰고 적절한 질문을 하며 우선순위를 매길 줄 안다.**
 
 
 ### 뛰어난 개발자는 적절한 도구를 찾아낸다.
@@ -72,4 +75,4 @@ https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5
 구독하고 있는 위클리 뉴스레터들을 대충 훑을 게 아니라 흥미로운 게 있으면 들어가서 공식문서도 좀 자세히 볼 것.
 
 그리고 내 블로그에도 개선하고 추가해야할 기능이 많은데, 이것들도 좀 리스트업을 해봐야겠다.   
-깃허브 repo 프로젝트 탭(https://github.com/users/pullingoff/projects/1)에 그때그때 추가하고는 있지만 내 시간과 에너지의 기회비용을 생각하며 꼭 필요한 기능을 추가해나가자.
+[깃허브 repo 프로젝트 탭](https://github.com/users/pullingoff/projects/1)에 그때그때 추가하고는 있지만 내 시간과 에너지의 기회비용을 생각하며 꼭 필요한 기능을 추가해나가자.
