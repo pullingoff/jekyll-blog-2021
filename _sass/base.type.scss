@@ -87,6 +87,7 @@ ul, ol, article {
   margin-bottom: 1px;
 }
 
+
 .post-content {
   p {
     margin: 1px;
@@ -94,6 +95,10 @@ ul, ol, article {
   a {
     font-weight: 500;
     text-decoration: underline;
+  }
+
+  ul {
+    padding: 0;
   }
 }
 
