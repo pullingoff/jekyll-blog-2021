@@ -6,9 +6,9 @@
             {% if post.thumbnail %}
                 <img src="{{ post.thumbnail }}">
             {% else %}
-                <div style="padding:12px;text-align: center;">
-                    <span role="img" style="font-size: 20px;"></span>
-                </div>
+                <span style='color:rgb(78, 77, 77);font-size: 0.6rem;background-color: rgb(232, 232, 233);font-weight: 100;display:block;line-height: 100%;'>
+                    {{ post.title }}
+                </span>
             {% endif %}
         </div>
         <div class="titleWrapper" style="padding-right: 5px;">

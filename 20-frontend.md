@@ -1,6 +1,6 @@
 ---
 layout: fe
-title: FrontEnd
+title: Front
 description: 프론트엔드 관련글 🎨
 keywords: fe
 category: fe
