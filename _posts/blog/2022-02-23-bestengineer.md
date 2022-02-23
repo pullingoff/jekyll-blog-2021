@@ -13,10 +13,11 @@ description: 미디엄의 한 글을 읽고 밑줄 치고 싶었던 문장들을
 
 미디엄의 'how to be a 10x engineer'라는 글을 짧게 요약하고 내 생각을 적어본다. 
 
-(글에서 시니어 개발자가 10배 더 나은 개발자고 주니어 개발자는 평범한 개발자라는 느낌을 살짝 주지만, 저자가 의도한 'junior'는 오로지 연차만을 말하는게 아닌 것 같습니다. 'junior developer'라는 단어는 '평범한 개발자'로 의역을 했습니다.)
+(글에서 시니어 개발자가 10배 더 나은 개발자고 주니어 개발자는 평범한 개발자라는 느낌을 살짝 주지만,   
+저자가 의도한 'junior'는 오로지 연차만을 말하는게 아닌 것 같습니다.  
+'junior developer'라는 단어는 '평범한 개발자'로 의역을 했습니다.)
 
-원글 링크: 
-https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5
+[원글 읽으러가기 Click!](https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5)
 
 
 # 최고의 개발자?
@@ -25,10 +26,12 @@ https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5
 
 
 # 최고의 개발자 vs. 평범한 개발자
-는 바로 **소프트 스킬(non-technical skills)**이다. They use the right tools, ask the right questions, and know how to prioritize. **그들은 적시적소에 맞는 툴을 쓰고 적절한 질문을 하며 우선순위를 매길 줄 안다.**
+는 바로 **소프트 스킬(non-technical skills)**이다.  
+They use the right tools, ask the right questions, and know how to prioritize.  
+**그들은 적시적소에 맞는 툴을 쓰고 적절한 질문을 하며 우선순위를 매길 줄 안다.**
 
 
-### 뛰어난 개발자는 적절한 도구를 찾아낸다.
+## 뛰어난 개발자는 적절한 도구를 찾아낸다.
 “내가 8시간 안에 나무를 베어야한다면 내 도끼날을 가는데 7시간을 쓰겠다.” / 링컨
 
 평범한 개발자는 무딘 도끼로 8시간 동안 나무를 벨지도 모른다. 뛰어난 개발자는 한 시간만에 잘 드는 전기톱을 고를 것이다. 그리고 5분 후 나무를 다 벨 것이다.
@@ -52,11 +55,11 @@ https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5
 도움을 요청할 땐 문제 해결에 도움이 되는 추가 맥락을 설명해주면 좋다. 예를 들어 '코드를 왜 이런 구조로 짰는지', '어디서 불러오는 API인지', '배포는 어떻게 이루어지는지' 등이 있다.
 
 
-### 뛰어난 개발자는 비즈니스 가치를 이해한다.
+## 뛰어난 개발자는 비즈니스 가치를 이해한다.
 뛰어난 개발자는 일이 일종의 투자라는 것을 안다. 그리고 그 투자로 얻는 수익은 그들이 공들인 시간보다 더 큰 가치를 가져야한다. 기회비용을 이해하고, 구현할 수 있는 기능을 전부 구현하는게 아니라 가장 효율적이고 효과적인 기능을 추려낸다.
 
 
-### 결론은 소프트 스킬이다.
+## 결론은 소프트 스킬이다.
 **"유능하지만 재수 없는 놈(jerk)을 그냥 냅두지 마세요. 팀워크는 너무나 중요합니다."** / Netflix CEO
 
 이외에도 결국 최강의 개발자를 결정하는 것은 바로 소프트 스킬이다. 개발을 잘 하는 것보다 재수 없는 놈(jerk)이 되지 않는게 더 쉽다. 쓸데 없는 자존심때문에 우리의 노력이 물거품이 되지 않도록 하자. 
@@ -72,4 +75,4 @@ https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5
 구독하고 있는 위클리 뉴스레터들을 대충 훑을 게 아니라 흥미로운 게 있으면 들어가서 공식문서도 좀 자세히 볼 것.
 
 그리고 내 블로그에도 개선하고 추가해야할 기능이 많은데, 이것들도 좀 리스트업을 해봐야겠다.   
-깃허브 repo 프로젝트 탭(https://github.com/users/pullingoff/projects/1)에 그때그때 추가하고는 있지만 내 시간과 에너지의 기회비용을 생각하며 꼭 필요한 기능을 추가해나가자.
+[깃허브 repo 프로젝트 탭](https://github.com/users/pullingoff/projects/1)에 그때그때 추가하고는 있지만 내 시간과 에너지의 기회비용을 생각하며 꼭 필요한 기능을 추가해나가자.
