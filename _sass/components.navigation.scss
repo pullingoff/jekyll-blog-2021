@@ -11,35 +11,88 @@ nav {
 	border-bottom: 1px solid $theme1;
 	margin-bottom: 2rem;
 	width: 100%;
-	ul {
-		display: flex;
-		justify-content: space-around;
-		float: right;
-		padding-left: 0;
-		margin-top: 2rem;
-		margin-bottom: 1rem;
-		li {
-			display: inline-block;
-			margin-left: 1.5rem; 
-			a:visited {color: lighten($theme1, 5%);}
-			a { transition: color 0.2s ease;
-				font-size:16px;
-				font-weight: 700;}
-			a:hover {color: lighten($theme1, 5%);}
-		}
-		li:first-child {margin-left: 0;}
-	}
+	
 }
 
-@include mobile {
+
+@include desktop {
+	nav ul li:first-child {
+		margin-left: 0;
+	}
+}
 	nav {
 		ul {
-			margin-top:1rem;
+			display: flex;
+			justify-content: space-around;
+			float: right;
+			padding-left: 0;
+			margin-top: 2rem;
+			margin-bottom: 1rem;
 			li {
-				margin-left: 0.8rem;
+				display: inline-block;
+				margin-left: 1.5rem; 
+				a:visited {color: lighten($theme1, 5%);}
+				a { transition: color 0.2s ease;
+					font-size:16px;
+					font-weight: 700;}
+				a:hover {color: lighten($theme1, 5%);}
 			}
+			// li:first-child {margin-left: 0;}
 		}
 	}
+
+
+@include mobile {
+	.container {
+		display: inline-block;
+		cursor: pointer;
+		margin: 2rem 1rem 1rem auto;
+		float: right;
+	}
+	.container + #navMenuUl{
+		display: none;
+	}
+	  
+	.bar1, .bar2, .bar3 {
+		width: 35px;
+		height: 5px;
+		background-color: $theme2;
+		margin: 6px 0;
+		transition: 0.4s;
+	}
+
+	/* Rotate first bar */
+	.change .bar1 {
+		-webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+		transform: rotate(-45deg) translate(-9px, 6px) ;
+	}
+
+	/* Fade out the second bar */
+	.change .bar2 {
+		opacity: 0;
+	}
+
+	/* Rotate last bar */
+	.change .bar3 {
+		-webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+		transform: rotate(45deg) translate(-8px, -8px) ;
+	}
+
+	.change + #navMenuUl { // mobile 에서는 샌드위치만 보인다.
+	display: flex;
+	position: fixed;
+	top: 70px;
+	background: white;
+	width: 100vw;
+	height: 100vh;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+		li {
+			margin-bottom: 2vh;
+			margin-left: 2vw;
+		}
+	}
+	
   }
 
 [data-wenk]{position:relative}
