@@ -1,6 +1,6 @@
 <div class="page-listing">
-    {% assign items = site.cs  | sort: 'date'%}
-    {% for post in site.cs reversed %}
+    {% assign items = site.cs  | sort: 'date' | reverse %}
+    {% for post in items %}
     <div class="listing blogListing"> 
         <div class="imgWrapper">
             {% if post.thumbnail %}

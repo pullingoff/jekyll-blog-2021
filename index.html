@@ -24,6 +24,7 @@ nav-class: home
   <div class="cateWrapper">
     <h1>카테고리별 최근 글</h1>
     <table id="indexParentTb">
+      
       {% for category in site.categories %}
       <tr>
         <td class="mainPost">
@@ -31,7 +32,8 @@ nav-class: home
         <td class="mainTitle">
           <table class="indexNestTb">
             <!-- 여기서 category.last는 blog dir 아래별로 구분됨-->
-            {% for post in category.last limit:3 %}
+            {% assign items = category.last  | sort: 'date' | reverse %}
+            {% for post in items limit:3 %}
               {% if post.url %} 
               <tr>
                 <td><a href="{{ post.url }}">{{ post.title }}</a></td>
@@ -46,7 +48,8 @@ nav-class: home
         <td class="mainPost"><span>Computer Science</span></td>
         <td class="mainTitle">
           <table class="indexNestTb">
-            {% for c in site.cs limit:3 %}
+            {% assign csitems = site.cs  | sort: 'date' | reverse %}
+            {% for c in csitems limit:3 %}
                 {% if c.url %} 
                 <tr>
                   <td><a href="{{ c.url }}">{{ c.title }}</a></td>
@@ -60,7 +63,8 @@ nav-class: home
         <td class="mainPost"><span>FrontEnd</span></td>
         <td class="mainTitle">
           <table class="indexNestTb">
-            {% for c in site.fe limit:3 %}
+            {% assign feitems = site.fe  | sort: 'date' | reverse %}
+            {% for c in feitems limit:3 %}
                 {% if c.url %} 
                 <tr>
                   <td><a href="{{ c.url }}">{{ c.title }}</a></td>

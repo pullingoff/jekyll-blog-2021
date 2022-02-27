@@ -15,8 +15,8 @@ layout: default
 
 <div class="page-listing event-listing">
 
-{% assign items = site.resource | sort: 'date' %}
-{% for resource in site.resource reversed %}
+{% assign items = site.resource | sort: 'date' | reverse %}
+{% for resource in items %}
 
 <!-- event item -->
 <div class="listing cf">

@@ -1,7 +1,7 @@
 <div class="page-listing">
 
-    {% assign items = site.fe  | sort: 'date'%}
-    {% for post in site.fe reversed %}
+    {% assign items = site.fe  | sort: 'date' | reverse %}
+    {% for post in items %}
     <div class="listing blogListing"> 
         <div class="imgWrapper">
             {% if post.thumbnail %}
