@@ -11,17 +11,21 @@ body {
 @include mobile {
   body {
     padding: 0 1rem 0.3rem 1rem;
-    .wrapper {
+    #indexWrapper {
       // max-width: 80vw;
+      width: 90vw;
       margin: 0 auto;
       padding: 0 10px;
     }
   }
 }
 
-.wrapper {
-  max-width: 70vw;
+#indexWrapper {
+  // max-width: 70vw;
+  min-width: 60vw;
   width: 70vw;
+}
+.wrapper {
   margin: 0 auto;
   padding: 0 10px;
 }

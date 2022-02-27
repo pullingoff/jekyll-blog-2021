@@ -1,5 +1,6 @@
 // Breakpoints
-$breakpoint-mobile: 335px;
+// $breakpoint-mobile: 335px;
+$breakpoint-mobile: 1px; // 최소한까지 작아지면 mobile로 치자.
 $breakpoint-tablet: 758px;
 $breakpoint-desktop: 1024px;
 
