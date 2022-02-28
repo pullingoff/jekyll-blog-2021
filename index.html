@@ -24,11 +24,10 @@ nav-class: home
   <div class="cateWrapper">
     <h1>카테고리별 최근 글</h1>
     <table id="indexParentTb">
-      
       {% for category in site.categories %}
       <tr>
         <td class="mainPost">
-          <span">{{ category | first }}</a></td>
+          <span">{{ category | first | upcase }}</a></td>
         <td class="mainTitle">
           <table class="indexNestTb">
             <!-- 여기서 category.last는 blog dir 아래별로 구분됨-->
@@ -36,7 +35,7 @@ nav-class: home
             {% for post in items limit:3 %}
               {% if post.url %} 
               <tr>
-                <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+                <td style="position: relative;left:1rem;"><a href="{{ post.url }}">{{ post.title }}</a></td>
               </tr>
               {% endif %}
             {% endfor %}
@@ -44,36 +43,6 @@ nav-class: home
         </td>
       </tr>
       {% endfor %}
-      <tr>
-        <td class="mainPost"><span>Computer Science</span></td>
-        <td class="mainTitle">
-          <table class="indexNestTb">
-            {% assign csitems = site.cs  | sort: 'date' | reverse %}
-            {% for c in csitems limit:3 %}
-                {% if c.url %} 
-                <tr>
-                  <td><a href="{{ c.url }}">{{ c.title }}</a></td>
-                </tr>
-                {% endif %}
-            {% endfor %}
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td class="mainPost"><span>FrontEnd</span></td>
-        <td class="mainTitle">
-          <table class="indexNestTb">
-            {% assign feitems = site.fe  | sort: 'date' | reverse %}
-            {% for c in feitems limit:3 %}
-                {% if c.url %} 
-                <tr>
-                  <td><a href="{{ c.url }}">{{ c.title }}</a></td>
-                </tr>
-                {% endif %}
-            {% endfor %}
-          </table>
-        </td>
-      </tr>
     </table>
     <div class="cateWrapper">
       <h2>회고록</h2>

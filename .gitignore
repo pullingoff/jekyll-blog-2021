@@ -16,3 +16,5 @@ _drafts
 *.css.map
 notes.md
 .lock
+Gemfile.lock
+Gemfile.lock

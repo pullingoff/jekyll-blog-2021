@@ -13,4 +13,26 @@ layout: default
 {{ content }}
 </div>
 
-{% include listing-fe.html %}
+<div class="page-listing">
+
+    <!-- {% assign items = site.fe  | sort: 'date' | reverse %} -->
+    {% for post in site.categories.fe %}
+    <div class="listing blogListing"> 
+        <div class="imgWrapper">
+            {% if post.thumbnail %}
+                <img src="{{ post.thumbnail }}">
+            {% else %}
+                <img src="{{ site.baseurl }}/assets/images/cod2.jpeg" />
+            {% endif %}
+        </div>
+        <h2 class="titleWrapper"  style="padding-right: 5px;">
+            <a class="post-link" 
+                href="{{ post.url | prepend: site.baseurl }}" 
+                title="Read more: {{ post.title }}">{{ post.title }}</a>
+                <div class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+        </h2>
+        
+    </div>
+    {% endfor %}
+    
+    </div>

@@ -75,4 +75,4 @@ They use the right tools, ask the right questions, and know how to prioritize.
 구독하고 있는 위클리 뉴스레터들을 대충 훑을 게 아니라 흥미로운 게 있으면 들어가서 공식문서도 좀 자세히 볼 것.
 
 그리고 내 블로그에도 개선하고 추가해야할 기능이 많은데, 이것들도 좀 리스트업을 해봐야겠다.   
-[깃허브 repo 프로젝트 탭](https://github.com/users/pullingoff/projects/1)에 그때그때 추가하고는 있지만 내 시간과 에너지의 기회비용을 생각하며 꼭 필요한 기능을 추가해나가자.
+[깃허브 repo 프로젝트 탭](https://github.com/users/pullingoff/project/1)에 그때그때 추가하고는 있지만 내 시간과 에너지의 기회비용을 생각하며 꼭 필요한 기능을 추가해나가자.
