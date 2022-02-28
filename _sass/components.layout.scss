@@ -17,7 +17,17 @@ body {
       margin: 0 auto;
       padding: 0 10px;
     }
+    
+    #site-nav {
+      position: fixed;
+      top: 0;
+      height: 80px;
+      background-color: white;
+      z-index: 100;
+    }
   }
+
+
 }
 
 // #indexWrapper {
@@ -31,13 +41,14 @@ body {
   z-index: 90;
 }
 
-  #site-nav {
-    position: fixed;
-    top: 0;
-    height: 80px;
-    background-color: white;
-    z-index: 100;
-  }
+
+#site-nav {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  background-color: white;
+  z-index: 100;
+}
 
 .blogListing {
   display:flex;
