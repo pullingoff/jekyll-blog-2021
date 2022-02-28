@@ -6,11 +6,11 @@
 
 
 nav {
-	clear: both;
-	float: left;
+	// clear: both;
+	// float: left;
 	border-bottom: 1px solid $theme1;
 	margin-bottom: 2rem;
-	width: 100%;
+	width: 95%;
 	
 }
 
@@ -86,7 +86,7 @@ nav {
 	.change + #navMenuUl { // mobile 에서는 샌드위치만 보인다.
 	display: flex;
 	position: fixed;
-	top: 70px;
+	top: 53px;
 	background: white;
 	width: 100vw;
 	height: 100vh;

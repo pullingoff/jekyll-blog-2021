@@ -20,8 +20,8 @@ nav-class: home
 </div>
 
 <section class="cf">
-<div class="wrapper">
-  <div class="cateWrapper">
+<!-- <div class="wrapper"> -->
+  <div class="wrapper cateWrapper">
     <h1>카테고리별 최근 글</h1>
     <table id="indexParentTb">
       {% for category in site.categories %}
@@ -44,7 +44,8 @@ nav-class: home
       </tr>
       {% endfor %}
     </table>
-    <div class="cateWrapper">
+  </div>
+  <div class="cateWrapper">
       <h2>회고록</h2>
       <ul class="retroUl">
         <li>
@@ -77,7 +78,7 @@ nav-class: home
           </a>
         </li>
       </ul>
-    </div>
-  </div>
+    <!-- </div> -->
+  <!-- </div> -->
 </div>
 </section>

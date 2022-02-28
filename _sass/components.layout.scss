@@ -20,15 +20,24 @@ body {
   }
 }
 
-#indexWrapper {
-  // max-width: 70vw;
-  min-width: 60vw;
-  width: 70vw;
-}
+// #indexWrapper {
+//   // max-width: 70vw;
+//   min-width: 60vw;
+//   width: 70vw;
+// }
 .wrapper {
   margin: 0 auto;
   padding: 0 10px;
+  z-index: 90;
 }
+
+  #site-nav {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    background-color: white;
+    z-index: 100;
+  }
 
 .blogListing {
   display:flex;
@@ -136,8 +145,8 @@ margin: 2px 0;
 }
 
 .indexNestTb{
-  width: 80%;
-  margin-bottom: 15px;
+  // width: 80%;
+  // margin-bottom: 15px;
 }
 
 .imgWrapper {
@@ -238,14 +247,18 @@ h1.post-title {
 
 @include mobile {
   #indexParentTb {
-    margin: 5% 1%;
+    margin: 5% 10%;
   }
   .mainPost {
     font-size: 1.1rem;
-    padding-right: 7%;
+    font-weight: 600;
+    // padding-right: 7%;
+    // vertical-align: middle;
+    position: relative;
+    right: 5px;
   }
   .indexNestTb {
-    width: 95%
+    // width: 95%
   }
 
   .blogListing {
