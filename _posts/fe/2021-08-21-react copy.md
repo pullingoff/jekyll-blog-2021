@@ -58,6 +58,8 @@ const [name, setName] = useState({
 
 ## useRef()
 
+- input 관리할 때 유용한 함수다.
+
 ```javascript
  return (
     <div className="App">
