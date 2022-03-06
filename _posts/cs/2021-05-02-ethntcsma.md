@@ -1,5 +1,5 @@
 ---
-title: "[네트워크] Ethernet and CSMA/CD"
+title: "What is Ethernet and CSMA/CD"
 layout: post
 date: 2021-05-02 08:00
 thumbnail: https://sf.ezoiccdn.com/ezoimgfmt/networkencyclopedia.com/wp-content/uploads/2019/08/csma-cd.jpg?ezimgfmt=ng:webp/ngcb2
