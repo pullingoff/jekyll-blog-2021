@@ -1,10 +1,10 @@
 <!-- <header class="site-header cf"> -->
 	
-	<!-- <div class="wrapper"> -->
-		<nav id="site-nav" class="site-nav">
+	<div id="navWrapper" class="wrapper">
+		<nav id="site-nav">
 			<a class="logo" href="{{ site.baseurl }}/" title="{{ site.title }} home page">
 			<img class="nav-logo" src="/{{ site.theme-path }}/logo.svg" title="{{ site.title }} logo" /></a>
-			<div class="container" hidden onclick="myFunction(this)">
+			<div id="threeBarNav" class="container" hidden onclick="clickNav(this)">
 				<div class="bar1"></div>
 				<div class="bar2"></div>
 				<div class="bar3"></div>
@@ -22,11 +22,13 @@
 				{% endunless %}{% endif %}{% endfor %}
 			</ul>
 		</nav>
-	<!-- </div> -->
+	</div>
 
 <!-- </header> -->
 <script>
-	function myFunction(x) {
-  x.classList.toggle("change");
-}
+	function clickNav(x) {
+		x.classList.toggle("open");
+		const nav = x.parentNode
+		nav.classList.toggle("open")
+	}
 </script>

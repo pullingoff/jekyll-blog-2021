@@ -3,16 +3,18 @@
 
 {% include head.html %}
 
-<body class="{{ page.nav-class }}">
+<!-- <body class="{{ page.nav-class }}"> -->
+<body>
+    <div id="contents">
 
-{% include header.html %}
-
-<div class="page-content">
- {{ content }}
-</div>
-
-{% include footer.html %}
-
+        {% include header.html %}
+        
+        <div class="page-content" style="margin-top: 30px;">
+            {{ content }}
+        </div>
+        
+        {% include footer.html %}
+    </div>
 </body>
 
 </html>

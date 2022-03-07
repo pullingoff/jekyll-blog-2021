@@ -4,19 +4,25 @@
 
 footer {
 	padding-bottom: 2rem;
-	margin: 2rem auto;
-
-}
-
-footer .wrapper {
 	padding-top: 2rem;
-	border-top: 1px solid $theme1;
 	text-align: center;
-	width: 85%;
-}
-footer ul {
-	padding: 0;
+
+	ul {
+		padding: 0;
 	list-style: none;
 	margin-top: 0;
 	margin-bottom: 1rem;
+	}
+	// margin: 2rem auto;
+	// &::before {
+	// 	border: 1px solid $theme1;
+	// }
 }
+
+// footer .wrapper {
+	
+// 	// width: 85%;
+// }
+// footer ul {
+	
+// }

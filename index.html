@@ -19,9 +19,9 @@ nav-class: home
   </p>
 </div>
 
-<section class="cf">
-<!-- <div class="wrapper"> -->
-  <div class="wrapper cateWrapper">
+<!-- <section class="cf"> -->
+
+  <div id="recentPostDiv" class="cateWrapper">
     <h1>Recent Posts</h1>
     <table id="indexParentTb">
       {% for category in site.categories %}
@@ -35,7 +35,7 @@ nav-class: home
             {% for post in items limit:3 %}
               {% if post.url %} 
               <tr>
-                <td style="position: relative;left:1rem;"><a href="{{ post.url }}">{{ post.title }}</a></td>
+                <td class="titleTd"><a href="{{ post.url }}">{{ post.title }}</a></td>
               </tr>
               {% endif %}
             {% endfor %}
@@ -78,7 +78,5 @@ nav-class: home
           </a>
         </li>
       </ul>
-    <!-- </div> -->
-  <!-- </div> -->
-</div>
-</section>
+  </div>
+<!-- </section> -->

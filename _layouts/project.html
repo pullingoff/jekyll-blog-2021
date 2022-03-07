@@ -5,16 +5,16 @@ layout: default
 
 <div class="wrapper">
 
-<article>
+<!-- <article> -->
 
 <h1 class="post-title">{{ page.title }}</h1>
 <div class="post-content">
 {{ content }}
 </div>
 
-<div class="page-listing">
+<ul class="postList">
    {% for post in site.categories.project %}
-    <div class="listing blogListing"> 
+    <li class="postRow">  
         <div class="imgWrapper">
             {% if post.thumbnail %}
                 <img src="{{ post.thumbnail }}">
@@ -22,16 +22,16 @@ layout: default
             <img src="{{ site.baseurl }}/assets/images/cod2.jpeg">
             {% endif %}
         </div>
-        <h2 class="titleWrapper"  style="padding-right: 5px;">
+        <div class="titleWrapper">
             <a class="post-link" 
                 href="{{ post.url | prepend: site.baseurl }}" 
                 title="Read more: {{ post.title }}">{{ post.title }}</a>
-            <div class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-        </h2>
+            <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
         
-    </div>
+    </li>
     {% endfor %}
-</div>
-</article>
+</ul>
+<!-- </article> -->
 
 </div><!-- end wrapper -->

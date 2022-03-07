@@ -1,0 +1,102 @@
+@import "_mixin";
+
+// resume
+#resumeContent {
+  margin-bottom: 50px;
+}
+#resume-Intro {
+  width:100%;display:flex;flex-flow: column nowrap;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#myName{
+  border-top: none;
+  font-size: 24px;
+  margin:0 auto 0 0;
+  color:$theme1;
+}
+
+.resume-Job {
+  font-size:16px;margin:3px 2px;
+}
+
+.resume-Email {
+  font-size:15px;
+  font-weight:200;
+  margin:6px 0;
+}
+
+.resume-Explain {
+  font-size: 15px;
+margin: 10px 0 20px;line-height: 20px;
+font-weight: 500;
+}
+
+.resume-SectionHeader {
+  width: 100%;
+margin: 50px 0 10px;font-size: 22px;
+color: #696969;
+font-weight:800;
+}
+
+.resume-Section {
+  width: 100%;
+display: flex;
+flex-flow: column nowrap;
+margin-bottom: 20px;
+}
+
+.resume-Org {
+  font-weight: 300;
+  font-size: 20px
+}
+
+.resume-jobDate {
+  font-weight: 400;
+font-size: 14.5px;
+margin: 5px 0;
+}
+.resume-Project {
+  align-items: center;
+  margin: 5px 0;
+}
+.resume-PName {
+  font-size: 18px;font-style:italic;font-weight:bold;
+  margin-top: 15px;
+}
+
+.resume-PExplain {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top:1px;
+  margin-bottom: 7px;
+}
+
+.resume-W {
+  font-weight: 400;
+font-size: 14px;
+margin: 2px 0;
+}
+
+.resume-PExplain, .resume-W {
+  padding-left: 5px;
+}
+
+@include mobile {  
+  .resume-SectionHeader{
+    margin-top: 30px;
+  }
+  .resume-Section {
+    margin-bottom: 5px;
+  }
+  .resume-PName {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 0.5rem;
+  }
+  .resume-Explain {
+    line-height: 130%;
+  
+  }
+}
+
