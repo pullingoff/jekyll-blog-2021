@@ -68,9 +68,9 @@
 .postRow {
   display:flex;
   padding: 0.5vh 3vw 0.5vh 0.5vw;
-
+  min-height: 70px;
+  max-height: 13vh;
 }
-
 
 @include desktop {
   .postRow {
@@ -83,11 +83,7 @@
 
 @include notDesktop {
 
-    .postRow {
-      min-height: 70px;
-      max-height: 13vh;
-    }
-
+    
     .post-link {
         // font-size: 1rem;
         display: table;
