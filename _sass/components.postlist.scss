@@ -40,36 +40,29 @@
     }
   }
   
-  .titleTd {
-    // position: relative;left:1rem;"
-  }
-
 // blog.html
 .inline-post-date {
-    font-size: xx-small;
-    font-weight: 200;
-    margin-top: 3px;
-  }
-  
-  .blogCates {
-    list-style: none;
-  }
-  
-  .post-link {
-    font-size: 1.3rem;
-    font-weight: bold;
-    &:hover {
-        color: $theme3;
-    }
-  }
-  
-  .contentSummary {
-    font-size: 0.7rem;
-    margin: 0;
-  }
+  font-size: xx-small;
+  font-weight: 200;
+  margin-top: 3px;
+}
 
+.blogCates {
+  list-style: none;
+}
 
+.post-link {
+  font-size: 1.3rem;
+  font-weight: bold;
+  &:hover {
+      color: $theme3;
+  }
+}
 
+.contentSummary {
+  font-size: 0.7rem;
+  margin: 0;
+}
 
 
 .postRow {

@@ -208,10 +208,6 @@ article ul {
   li {list-style-type: circle;}
 }
 
-// article ul, article ol {
-//   padding-left: 0;
-//   li {margin-left: 0;padding-left: 0;}
-// }
 
 img {
   border: 0;
@@ -269,16 +265,9 @@ cite {display: block; color: $color-text-lighter; margin-top: 0.5rem;}
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     padding-top: 0.3rem;
-    // font-size: 1.3rem;
     
   }
-  h2 {
-    // font-size: 1.15rem;
-    // line-height: 120%;
-  }
-  h3 {
-    // font-size: 1.1rem;
-  }
+  
 
 }
 
@@ -287,15 +276,11 @@ cite {display: block; color: $color-text-lighter; margin-top: 0.5rem;}
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     padding-top: 0.3rem;
-    // font-size: 1.3rem;
     
   }
   h2, h3 {
     margin: 1px auto;
-    // font-size: 1.15rem;
-    // line-height: 120%;
+  
   }
-  h3 {
-    // font-size: 1.1rem;
-  }
+  
 }
