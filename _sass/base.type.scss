@@ -75,9 +75,9 @@ p strong, li strong {
 }
 
 ul, ol, article {
-  // list-style: none;
+  list-style: none;
   margin-bottom: 1rem;
-  padding: 10px;
+  padding: 5px 0;
 }
 
 @include desktop {
@@ -236,8 +236,8 @@ figure {
   &::after {
     content: ' ';
     display: block;
-    border-bottom: 1px solid lighten($theme1, 10%);
-    margin: 0 20px;
+    border-bottom: 1px solid $color-light-navy;
+    margin: 0 5px;
   }
 }
 

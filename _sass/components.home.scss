@@ -10,39 +10,41 @@
   line-height: 170%;
   font-size: 110%;
   cursor: pointer;
-  margin: 20px 10px;
+  margin-bottom: 20px;
   // padding-left: 4px;
   // padding-right: 10px;
 }
 
-#mainImg {
-  margin-left: 4px;
-  max-width: 600px;
-}
-@include veryNarrowMobile {
-  #indexParentTb {
-    margin: 0;
+// #mainImg {
+//   margin-left: 4px;
+//   max-width: $breakpoint-desktop / 9 * 8;
+  // &:hover {
+  //   opacity: 0.7;
+  // }
+// }
+
+@include desktop {
+  #mainImgWrapper {
+    display: inline-block;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.5s linear; // 접어두기 딜레이
+    $size: -50px;
+    #mainImg{
+      transform: translateY($size);       // 사진 위치를 위로 고정
+      transition: transform 0.5s linear;
+    }
+
+    &:hover {
+      max-height: 500px;
+      transition: max-height 0.5s linear;
+      #mainImg {
+        transform: translateY(0);       // 사진 위치 아래로
+        transition: transform 0.5s linear;
+      }
+    }
   }
-  .mainPost {
-    display: none;
-  }
-}
 
-
-
-
-// table
-#indexParentTb {
-  // margin: 3% 0 0 10%;
-  margin: 3% 10%;
-}
-.mainPost { 
- font-weight: 500; 
- font-size: 1.2rem;
- width: 20%;
- text-align:right;
- padding-right:3%;
- vertical-align: top;
 }
 
 
@@ -61,6 +63,13 @@
   }
 }
 
+// recentPost 부분
+.recentPLi {
+  font-size: 1.1rem;
+  // line-height: 140%;
+  margin-bottom: 5px;
+  letter-spacing: -1px;
+}
 
 // 회고록 부분 시작
 

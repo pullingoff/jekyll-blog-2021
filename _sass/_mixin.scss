@@ -18,7 +18,7 @@
   }
 }
 
-
+// max-width 랑 desktop 기준 똑같아진 상태
 // desktop 기준으로 개발했기 때문에 기준을 루즈하게 잡는다.
 @mixin desktop {
   @media (min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-desktop -1px}) {

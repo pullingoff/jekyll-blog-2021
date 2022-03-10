@@ -2,7 +2,8 @@
 $breakpoint-mobile: 335px;
 // $breakpoint-mobile: 1px; // 최소한까지 작아지면 mobile로 치자.
 $breakpoint-tablet: 758px;
-$breakpoint-desktop: 1024px;
+$breakpoint-desktop: 800px;
+// $breakpoint-desktop: 1024px;
 
 /*------------------------------------*\
     #COLOURS
@@ -11,6 +12,7 @@ $breakpoint-desktop: 1024px;
 $theme1: #031930;
 $theme2: #3a3d42;
 $theme3: #8ba0bb;
+$color-light-navy: #d5dce6;
 $color-main: rgb(9, 23, 53);
 $color-grey: #b1a69d;
 $color-grey-light:#eaeaea;

@@ -3,7 +3,7 @@ layout: default
 # 모든 til 글의 목록을 보여준다.
 ---
 
-
+<main>
 <h1 class="post-title">{{ page.title }}</h1>
 <!-- 
 <div class="post-content">
@@ -18,18 +18,20 @@ layout: default
             {% if post.thumbnail %}
                 <img src="{{ post.thumbnail }}">
             {% else %}
-                <img src="{{ site.baseurl }}/assets/images/cod2.jpeg" />
+                <span style='color:rgb(78, 77, 77);font-size: 0.6rem;background-color: rgb(232, 232, 233);font-weight: 100;display:block;line-height: 100%;'>
+                    {{ post.title }}
+                </span>
             {% endif %}
         </div>
         <div class="titleWrapper">
-            <a class="post-link" 
+            <h2><a class="post-link" 
                 href="{{ post.url | prepend: site.baseurl }}" 
                 title="Read more: {{ post.title }}">{{ post.title }}</a>
-                <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </h2>
+            <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
-        
     </li>
     {% endfor %}
-    
     </div>
 </ul>
+</main>

@@ -3,31 +3,35 @@ layout: default
 # 모든 블로그 글 리스트를 보여준다
 ---
 
+<main>
+
+
 <h1 class="post-title">{{ page.title }}</h1>
-<!-- <div class="post-content">
+<div class="post-content">
 {{ content }}
-</div> -->
+</div>
 
 <ul class="postList">
    {% for post in site.categories.blog %}
-    <li class="postRow">  
-        <div class="imgWrapper">
-            {% if post.thumbnail %}
-            <a href="{{ post.url | prepend: site.baseurl }}" title="Read more: {{ post.title }}">
-                <img src="{{ post.thumbnail }}">
-            </a>
-            {% else %}
-            <a href="{{ post.url | prepend: site.baseurl }}" title="Read more: {{ post.title }}">
-                <img src="{{ site.baseurl }}/assets/images/cod2.jpeg">
-            </a>
-            {% endif %}
-        </div>
-        <div class="titleWrapper">
-            <a class="post-link" 
-                href="{{ post.url | prepend: site.baseurl }}" 
-                title="Read more: {{ post.title }}">{{ post.title }}</a>
-            <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </div> 
-    </li>
+   <li class="postRow">  
+    <div class="imgWrapper">
+        {% if post.thumbnail %}
+            <img src="{{ post.thumbnail }}">
+        {% else %}
+            <span style='color:rgb(78, 77, 77);font-size: 0.6rem;background-color: rgb(232, 232, 233);font-weight: 100;display:block;line-height: 100%;'>
+                {{ post.title }}
+            </span>
+        {% endif %}
+    </div>
+    <div class="titleWrapper">
+        <h2><a class="post-link" 
+            href="{{ post.url | prepend: site.baseurl }}" 
+            title="Read more: {{ post.title }}">{{ post.title }}</a>
+        </h2>
+        <span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div>
+</li>
     {% endfor %}
 </ul>
+
+</main>

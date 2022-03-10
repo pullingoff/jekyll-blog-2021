@@ -4,7 +4,8 @@
 
 img {
   width: 100%;  // vw 에 맞게 조절됨.
-  max-width: 800px;
+  // max-width: 800px;
+  max-width: $breakpoint-desktop;
   height: auto;
   margin-bottom: 1rem;
 }
