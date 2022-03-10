@@ -1,16 +1,12 @@
 ---
 layout: default
+# 모든 블로그 글 리스트를 보여준다
 ---
 
-
-<div class="wrapper">
-
-<!-- <article> -->
-
 <h1 class="post-title">{{ page.title }}</h1>
-<div class="post-content">
+<!-- <div class="post-content">
 {{ content }}
-</div>
+</div> -->
 
 <ul class="postList">
    {% for post in site.categories.blog %}
@@ -35,6 +31,3 @@ layout: default
     </li>
     {% endfor %}
 </ul>
-<!-- </article> -->
-
-</div><!-- end wrapper -->

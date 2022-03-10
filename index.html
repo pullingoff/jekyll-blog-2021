@@ -6,80 +6,80 @@ keywords: jekyll, reg tait
 nav-class: home
 ---
 
-<div id="indexWrapper" class="wrapper">
-  <h1 id="helloH1">안녕하세요 🙋‍♀️ </h1>
-  <p id="homeSiteDescription">
-    <a href="/resume" target="_blank">
-      <strong>"거미는 자신의 실로써 공간의 자유에  이른다." </strong><br/>
-        좋아하는 책 ‘저지대’에 나오는 구절입니다.   
-        <strong>궁금한 것에 도전하고, 앞으로 나아가고자 발걸음을 내딛는</strong> 제 모습이 거미와 같다고 느꼈습니다.  
-        <strong>캐나다 토론토에서 마케팅을 전공하고</strong> 데이터 분석을 공부하다 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.
-        요즘은 <strong>파이썬과 리액트</strong>를 열심히 공부하고 있습니다.
-    </a>
-  </p>
-</div>
+<!-- <div id="indexWrapper" class="wrapper"> -->
+<main id="homeSiteDescription">
+  <!-- <h1 id="helloH1">안녕하세요 🙋‍♀️ </h1> -->
+  <div>
+    <img id="mainImg" src="{{site.baseurl}}/assets/images/main.jpg" /> 
+  </div>
+  <a href="/resume" target="_blank">
+    <strong>"거미는 자신의 실로써 공간의 자유에  이른다." </strong>
+      좋아하는 책 ‘저지대’에 나오는 구절입니다.   <br/>
+      <strong>궁금한 것에 도전하고, 앞으로 나아가고자 발걸음을 내딛는</strong> 제 모습이 거미와 같다고 느꼈습니다.  <br/>
+      <strong>캐나다 토론토에서 마케팅을 전공하고</strong> 프로그래밍에 흥미를 느껴 개발을 본격적으로 배웠습니다.<br/>
+      요즘은 <strong>파이썬과 리액트</strong>를 열심히 공부하고 있습니다.
+  </a>
+</main>
+<!-- </div> -->
 
-<!-- <section class="cf"> -->
-
-  <div id="recentPostDiv" class="cateWrapper">
-    <h1>Recent Posts</h1>
-    <table id="indexParentTb">
-      {% for category in site.categories %}
-      <tr>
-        <td class="mainPost">
-          <span style="font-weight: bold;">
-            <a href="/{{category | first}}">{{ category | first | upcase }}</a>
-          </span>
-          </td>
-        <td class="mainTitle">
-          <table class="indexNestTb">
-            <!-- 여기서 category.last는 blog dir 아래별로 구분됨-->
-            {% assign items = category.last  | sort: 'date' | reverse %}
-            {% for post in items limit:3 %}
-              {% if post.url %} 
-              <tr>
-                <td class="titleTd"><a href="{{ post.url }}">{{ post.title }}</a></td>
-              </tr>
-              {% endif %}
-            {% endfor %}
-          </table>
+<section id="recentPostDiv" class="cateWrapper">
+  <h1>Recent Posts</h1>
+  <table id="indexParentTb">
+    {% for category in site.categories %}
+    <tr>
+      <td class="mainPost">
+        <span style="font-weight: bold;">
+          <a href="/{{category | first}}">{{ category | first | upcase }}</a>
+        </span>
         </td>
-      </tr>
-      {% endfor %}
-    </table>
-  </div>
-  <div class="cateWrapper">
-      <h2>회고록</h2>
-      <ul class="retroUl">
-        <li>
-          <a class="retroA" href="/blog/2022/01/31/retro2021.html" target='_blank'>
-            <span role="img">🐥</span>SI 업계 1년차 개발자의 2021년 회고</a>
-        </li>
-        <li>
-          <a class="retroA" href="/blog/2020/12/25/retro2020.html" target='_blank'>
-            <span role="img">🥚</span>2020년 비전공자 코알못의 사적인 회고 </a>
-        </li>
-      </ul>
-      <h2>또 다른 공부 기록</h2>
-      <ul class="retroUl">
-        <li>
-          <a class="retroA" target='_blank' href="https://techsignal.notion.site/Programming-e1db73e50c8142e0a957115b24360cdb">
-            <span role="img">📝</span>친구들과 정리했던 JAVA, Spring 
-          </a>
-        </li>
-        <li>
-          <a class="retroA" target='_blank' href="https://techsignal.notion.site/2021-wiki-9ee53aafc33141abb7105a6b00571723">
-            <span role="img">✍️</span>2021 개발 발자국
-          </a>
-        </li>
-      </ul>
-      <h2>BookLog</h2>
-      <ul class="retroUl">
-        <li>
-          <a class="retroA" target="_blank" href="https://github.com/pullingoff/BookLog">
-            <span role="img">📚</span>읽은 개발, 기획 서적 감상
-          </a>
-        </li>
-      </ul>
-  </div>
-<!-- </section> -->
+      <td class="mainTitle">
+        <table class="indexNestTb">
+          <!-- 여기서 category.last는 blog dir 아래별로 구분됨-->
+          {% assign items = category.last  | sort: 'date' | reverse %}
+          {% for post in items limit:3 %}
+            {% if post.url %} 
+            <tr>
+              <td class="titleTd"><a href="{{ post.url }}">{{ post.title }}</a></td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </table>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+<section class="cateWrapper">
+  <h2>회고록</h2>
+  <ul class="retroUl">
+    <li>
+      <a class="retroA" href="/blog/2022/01/31/retro2021.html" target='_blank'>
+        <span role="img">🐥</span>SI 업계 1년차 개발자의 2021년 회고</a>
+    </li>
+    <li>
+      <a class="retroA" href="/blog/2020/12/25/retro2020.html" target='_blank'>
+        <span role="img">🥚</span>2020년 비전공자 코알못의 사적인 회고 </a>
+    </li>
+  </ul>
+  <h2>또 다른 공부 기록</h2>
+  <ul class="retroUl">
+    <li>
+      <a class="retroA" target='_blank' href="https://techsignal.notion.site/Programming-e1db73e50c8142e0a957115b24360cdb">
+        <span role="img">📝</span>친구들과 정리했던 JAVA, Spring 
+      </a>
+    </li>
+    <li>
+      <a class="retroA" target='_blank' href="https://techsignal.notion.site/2021-wiki-9ee53aafc33141abb7105a6b00571723">
+        <span role="img">✍️</span>2021 개발 발자국
+      </a>
+    </li>
+  </ul>
+  <h2>BookLog</h2>
+  <ul class="retroUl">
+    <li>
+      <a class="retroA" target="_blank" href="https://github.com/pullingoff/BookLog">
+        <span role="img">📚</span>읽은 개발, 기획 서적 감상
+      </a>
+    </li>
+  </ul>
+</section>

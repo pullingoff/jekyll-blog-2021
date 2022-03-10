@@ -1,20 +1,16 @@
 ---
 layout: default
-# til 글 하나하나의 페이지
+# 모든 til 글의 목록을 보여준다.
 ---
 
-<div class="wrapper">
-
-<!-- <article> -->
 
 <h1 class="post-title">{{ page.title }}</h1>
-
+<!-- 
 <div class="post-content">
 {{ content }}
-</div>
+</div> -->
 
 <ul class="postList">
-
     <!-- {% assign items = site.til  | sort: 'date' | reverse %} -->
     {% for post in site.categories.til %}
     <li class="postRow">  

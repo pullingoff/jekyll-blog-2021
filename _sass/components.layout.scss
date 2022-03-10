@@ -11,12 +11,14 @@ body {
   #contents {
     // padding: 0 10vw;
     max-width: 800px;
-    #indexWrapper, #recentPostDiv {
+    width: -webkit-fill-available;
+    #homeSiteDescription, #recentPostDiv {
 
       &::after {
         content: ' ';
         display: block;
         border-bottom: 1px solid lighten($theme1, 10%);
+        padding-top: 20px;
       }
     
     }
@@ -27,7 +29,7 @@ body {
   body {
     #contents {
       padding: 0 1px;
-      #indexWrapper {
+      #homeSiteDescription {
         margin: 0 auto;
         padding: 0 10px;
       }

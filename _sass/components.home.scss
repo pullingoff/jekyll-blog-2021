@@ -2,18 +2,23 @@
 
 
 #helloH1 {
-  margin-top: 0;
-  padding-top: 3px;
+  
+  padding: 5px 0;
 }
 #homeSiteDescription {
+  text-align: center;
   line-height: 170%;
   font-size: 110%;
   cursor: pointer;
-  padding-left: 4px;
-  padding-right: 10px;
+  margin: 20px 10px;
+  // padding-left: 4px;
+  // padding-right: 10px;
 }
 
-
+#mainImg {
+  margin-left: 4px;
+  max-width: 600px;
+}
 @include veryNarrowMobile {
   #indexParentTb {
     margin: 0;
@@ -42,8 +47,7 @@
 
 
 .cateWrapper {
-  // margin-top: 1rem;
-  padding: 10px;
+  padding: 0 10px;
   .retroUl {
     padding-top: 1px;
     list-style: none;

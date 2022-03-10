@@ -1,17 +1,13 @@
 ---
 layout: default
-# cs 글 하나하나의 페이지
+# 모든 computer science 글의 리스트를 보여준다
 ---
-
-<div class="wrapper">
-
-<!-- <article> -->
 
 <h1 class="post-title">{{ page.title }}</h1>
 
-<div class="post-content">
+<!-- <div class="post-content">
 {{ content }}
-</div>
+</div> -->
 
 <ul class="postList">
     <!-- {% assign items = site.cs  | sort: 'date' | reverse %} -->
@@ -37,4 +33,3 @@ layout: default
     {% endfor %}
 </ul>
     
-</div>
