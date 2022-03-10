@@ -15,6 +15,24 @@
   // padding-right: 10px;
 }
 
+#recentPostDiv, #selectedPosts {
+
+  &::before {
+    content: ' ';
+    display: block;
+    border-bottom: 1px solid $color-light-navy;
+    // padding-top: 20px;
+  }
+
+}
+
+@include notDesktop {
+  #homeSiteDescription {
+    margin: 20px 0;
+    // margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}
 // #mainImg {
 //   margin-left: 4px;
 //   max-width: $breakpoint-desktop / 9 * 8;
@@ -63,21 +81,26 @@
 
 // }
 
-
-.cateWrapper {
-  padding: 0 10px;
+#selectedPosts {
+  h1 {
+    margin-bottom: 0.5rem;
+  }
   .retroUl {
     padding-top: 1px;
     list-style: none;
+    margin: 3px 0;
     li {
       padding: 0.1rem;
+      letter-spacing: -1px;
       a{
         font-weight: 500;
         font-size: 15px;
+        
       }
     } 
   }
 }
+
 
 // recentPost 부분
 .recentPLi {

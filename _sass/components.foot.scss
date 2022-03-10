@@ -4,7 +4,7 @@
 
 footer {
 	padding-bottom: 2rem;
-	padding-top: 2rem;
+	padding-top: 1rem;
 	text-align: center;
 
 	ul {
@@ -13,5 +13,13 @@ footer {
 	margin-top: 0;
 	margin-bottom: 1rem;
 	}
+
+	&::before {
+		content: ' ';
+		display: block;
+		border-bottom: 1px solid $color-light-navy;
+		margin-bottom: 2rem;
+		// padding-top: 20px;
+	  }
 	
 }

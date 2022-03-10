@@ -13,16 +13,7 @@ body {
     // max-width: 800px;
     max-width: $breakpoint-desktop;
     width: -webkit-fill-available;
-    #recentPostDiv {
-
-      &::before {
-        content: ' ';
-        display: block;
-        border-bottom: 1px solid $color-light-navy;
-        // padding-top: 20px;
-      }
     
-    }
   }
 }
 
@@ -30,11 +21,7 @@ body {
   body {
     #contents {
       padding: 0 1px;
-      #homeSiteDescription {
-        margin: 20px 0;
-        // margin-bottom: 20px;
-        padding: 0 10px;
-      }
+     
     }
   }
 }
