@@ -226,6 +226,7 @@ figure {
 }
 
 .page-content {
+  margin-top: 30px;
   h1, h2, h3, h4, p, ul, ol {
     text-align: left;
   }
@@ -267,7 +268,9 @@ cite {display: block; color: $color-text-lighter; margin-top: 0.5rem;}
     padding-top: 0.3rem;
     
   }
-  
+  .page-content {
+    margin-top: 15px;
+  }
 
 }
 

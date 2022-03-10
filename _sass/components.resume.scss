@@ -6,7 +6,7 @@
 }
 #resume-Intro {
   width:100%;display:flex;flex-flow: column nowrap;
-  border-bottom: 1px solid #eaeaea;
+  // border-bottom: 1px solid #eaeaea;
 }
 
 #myName{
@@ -34,16 +34,25 @@ font-weight: 500;
 
 .resume-SectionHeader {
   width: 100%;
-margin: 50px 0 10px;font-size: 22px;
-color: #696969;
-font-weight:800;
+  margin: 50px 0 10px;font-size: 22px;
+  color: #696969;
+  font-weight:800;
+
+  &::before {
+    position: relative;
+    bottom: 15px;
+    display: block;
+    content: ' ';
+    border-top: 1px solid #eaeaea;
+  }
 }
 
 .resume-Section {
   width: 100%;
-display: flex;
-flex-flow: column nowrap;
-margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 40px;
+
 }
 
 .resume-Org {
@@ -84,11 +93,11 @@ margin: 2px 0;
 
 @include mobile {  
   .resume-SectionHeader{
-    margin-top: 30px;
+    margin-top: 20px;
   }
-  .resume-Section {
-    margin-bottom: 5px;
-  }
+  // .resume-Section {
+  //   margin-bottom: 15px;
+  // }
   .resume-PName {
     font-size: 1.1rem;
     margin-top: 5px;

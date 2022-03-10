@@ -27,7 +27,9 @@ nav-class: home
       {% for category in site.categories %}
       <tr>
         <td class="mainPost">
-          <a href="/{{category | first}}">{{ category | first | upcase }}</a>
+          <span style="font-weight: bold;">
+            <a href="/{{category | first}}">{{ category | first | upcase }}</a>
+          </span>
           </td>
         <td class="mainTitle">
           <table class="indexNestTb">
