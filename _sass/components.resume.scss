@@ -27,14 +27,16 @@
 }
 
 .resume-Explain {
-  font-size: 15px;
-margin: 10px 0 20px;line-height: 20px;
+  font-size: 1.2rem;
+margin: 10px 0;
+line-height: 20px;
 font-weight: 500;
 }
 
 .resume-SectionHeader {
   width: 100%;
-  margin: 50px 0 10px;font-size: 22px;
+  margin: 40px 0 10px;
+  font-size: 22px;
   color: #696969;
   font-weight:800;
 
@@ -91,13 +93,14 @@ margin: 2px 0;
   padding-left: 5px;
 }
 
-@include mobile {  
+@include notDesktop {
+  #resumeContent {
+    padding: 3px 7px 0px 10px;
+  }  
   .resume-SectionHeader{
     margin-top: 20px;
   }
-  // .resume-Section {
-  //   margin-bottom: 15px;
-  // }
+  
   .resume-PName {
     font-size: 1.1rem;
     margin-top: 5px;
@@ -105,7 +108,7 @@ margin: 2px 0;
   }
   .resume-Explain {
     line-height: 130%;
-  
+    font-size: 1.1rem;
   }
 }
 

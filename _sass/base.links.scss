@@ -3,20 +3,21 @@
 \*------------------------------------*/
 
 a {
+	text-decoration: none;
   background-color: transparent;
-}
-
-a, a:visited {
   color: $theme1;
-//   font-weight: 300;
-  text-decoration: none;
+  &:hover {
+	color: $theme3;
+  }
 }
 
-a:active,
-a:hover {
-  outline: 0;
-  color: lighten($theme1, 30%);
-}
+
+// a:active,
+// a:hover {
+//    	outline: 0;
+// //   color: lighten($theme1, 30%);
+	
+// }
 
 h2.external-url a:after {
 	content: "website";

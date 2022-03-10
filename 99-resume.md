@@ -4,6 +4,7 @@ title: Resume
 description: 제 이력서입니다 😝
 keywords:
 nav-class: resume
+nav-title: Resume
 exclude_from_nav: false
 permalink: /resume/
 ---

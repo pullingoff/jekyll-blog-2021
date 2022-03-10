@@ -17,7 +17,7 @@ body {
       &::after {
         content: ' ';
         display: block;
-        border-bottom: 1px solid lighten($theme1, 10%);
+        border-bottom: 1px solid $theme3;
         padding-top: 20px;
       }
     
@@ -36,14 +36,6 @@ body {
     }
   }
 }
-
-// @include veryWideDesktop {
-//   body {
-//     #contents {
-//       padding: 0 20vw;
-//     }
-//   }
-// }
 
 .wrapper {
   padding: 0 10px;
