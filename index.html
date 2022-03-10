@@ -4,8 +4,8 @@ layout: default
 
 <main>
   <!-- <h1 id="helloH1">안녕하세요 🙋‍♀️ </h1> -->
-  <div id="mainImgWrapper">
-    <img id="mainImg"
+  <div id="mainImgWrapper" onmouseover="shimmer(this)" onmouseout="shimmer(this)">
+    <img id="mainImg" 
          alt="박하은의 이력서 보러가기"
          src="{{site.baseurl}}/assets/images/main.JPG" /> 
   </div>
@@ -20,7 +20,7 @@ layout: default
     
     <ul id="recentPUl">
       {% assign items = site.posts  | sort: 'date' | reverse %}
-      {% for post in items limit: 5%}
+      {% for post in items limit: 10 %}
       <li class="recentPLi">
         <a href="{{post.url}}">{{ post.title }}</a>
       </li>
@@ -29,3 +29,9 @@ layout: default
   </section>
   
 </main>
+
+<script>
+  function shimmer(elem) {
+    elem.firstElementChild.classList.toggle('shimmer')
+  }
+</script>

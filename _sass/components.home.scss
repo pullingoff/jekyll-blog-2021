@@ -23,29 +23,45 @@
   // }
 // }
 
-@include desktop {
-  #mainImgWrapper {
-    display: inline-block;
-    max-height: 200px;
-    overflow: hidden;
-    transition: max-height 0.5s linear; // 접어두기 딜레이
-    $size: -50px;
-    #mainImg{
-      transform: translateY($size);       // 사진 위치를 위로 고정
-      transition: transform 0.5s linear;
-    }
-
-    &:hover {
-      max-height: 500px;
-      transition: max-height 0.5s linear;
-      #mainImg {
-        transform: translateY(0);       // 사진 위치 아래로
-        transition: transform 0.5s linear;
-      }
-    }
-  }
-
+.shimmer {
+  color: grey;
+  // display:inline-block;
+  -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+  background-repeat: no-repeat;
+  animation: shimmer 2.5s 2;
 }
+
+@keyframes shimmer {
+  100% {-webkit-mask-position:left}
+}
+
+#mainImg {
+  margin: 0;
+}
+
+// @include mobile {
+  // #mainImgWrapper {
+  //   display: inline-block;
+  //   max-height: 200px;
+  //   overflow: hidden;
+  //   transition: max-height 0.5s linear; // 접어두기 딜레이
+  //   $size: -50px;
+  //   #mainImg{
+  //     transform: translateY($size);       // 사진 위치를 위로 고정
+  //     transition: transform 0.5s linear;
+  //   }
+
+  //   &:hover {
+  //     max-height: 500px;
+  //     transition: max-height 0.5s linear;
+  //     #mainImg {
+  //       transform: translateY(0);       // 사진 위치 아래로
+  //       transition: transform 0.5s linear;
+  //     }
+  //   }
+  // }
+
+// }
 
 
 .cateWrapper {
