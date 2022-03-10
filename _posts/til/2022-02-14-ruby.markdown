@@ -1,15 +1,15 @@
 ---
 title: 맥 os montery에서 jekyll serve 시 Permission Error
 layout: post
-date: 2022-02-15 11:00
+date: 2022-02-14 11:00
 thumbnail: /assets/code/monterey.png
 tag:
 - blog
 - github page
 - ruby
 - jekyll
-nav-class: blog
-category: blog
+nav-class: til
+category: til
 author: Hailey Park
 description: Facing with many errors while setting up a Jekyll github page...
 ---
