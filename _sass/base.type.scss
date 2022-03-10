@@ -37,6 +37,7 @@ summary {
 h1, h2, h3, h4 {
   color: $theme1;
   font-weight: bold;
+  letter-spacing: -1px;
 }
 
 h1 {
@@ -59,14 +60,20 @@ h2 {
 
 h3 {font-size: 1.2rem;}
 
+a, span, div {
+  letter-spacing: -1px;
+}
+
 p {
   font-weight: 300;
+  letter-spacing: -1px;
 }
 
 b,
 strong {
   font-weight: 600;
   color: #000;
+  letter-spacing: -1px;
 }
 
 p strong, li strong {
