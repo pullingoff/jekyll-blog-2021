@@ -24,12 +24,9 @@ collections:
   cs:
     output: true
     permalink: /cs/:path/
-  fe:
+  til:
     output: true
-    permalink: /fe/:path/
-  be:
-    output: true
-    permalink: /be/:path/
+    permalink: /til/:path/
 
 # Build settings
 markdown: kramdown

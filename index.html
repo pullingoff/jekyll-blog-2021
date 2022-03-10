@@ -27,7 +27,8 @@ nav-class: home
       {% for category in site.categories %}
       <tr>
         <td class="mainPost">
-          <span">{{ category | first | upcase }}</a></td>
+          <a href="/{{category | first}}">{{ category | first | upcase }}</a>
+          </td>
         <td class="mainTitle">
           <table class="indexNestTb">
             <!-- 여기서 category.last는 blog dir 아래별로 구분됨-->
