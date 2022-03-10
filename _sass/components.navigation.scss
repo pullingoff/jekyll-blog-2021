@@ -36,7 +36,7 @@
 	float: left;
 	position: relative;
     bottom: -5px;
-	max-width: 50px;
+	max-width: 45px;
 	width: 4rem;
 	margin-top: 1rem;
 	&:hover {
@@ -78,7 +78,7 @@
 				// a:visited {color: lighten($theme1, 5%);}
 				a { transition: color 0.2s ease;
 					font-size:20px;
-					font-weight: 700;}
+					font-weight: 900;}
 				// a:hover {
 				// 	color: $theme2;
 				// 	// opacity: 0.7;	
@@ -101,7 +101,7 @@
 	#threeBarNav {
 		display: block;
 		cursor: pointer;
-		margin: 2rem 1rem 1rem auto;
+		margin: 1.9rem 0.5rem 1rem auto;
 		float: right;
 		&:hover {
 			opacity: 0.7;

@@ -87,6 +87,7 @@
   }
   .retroUl {
     padding-top: 1px;
+    padding-left: 3px;
     list-style: none;
     margin: 3px 0;
     li {
@@ -117,5 +118,11 @@
   span {
     margin-right: 10px;
     font-size: 1.4rem;
+  }
+}
+
+@include notDesktop {
+  #recentPostDiv {
+    padding-right: 3px;
   }
 }
