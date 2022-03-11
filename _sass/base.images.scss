@@ -27,4 +27,18 @@ figure {
 
 .post-content p img {
   border-radius: 5px;
+  border: 1px solid lightgrey;
+  margin: 10px 0;
+  max-width: 700px;
+}
+
+.post-content div {
+  max-width: 90vw;
+  img {
+
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin: 10px 0;
+    max-width: 700px;
+  }
 }
