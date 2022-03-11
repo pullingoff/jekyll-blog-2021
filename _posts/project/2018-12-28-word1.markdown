@@ -2,7 +2,7 @@
 title: "[R] 낱말 프로젝트 01: Words"
 layout: post
 date: 2018-12-28 19:02
-thumbnail: /assets/wordProject/1-1.png
+thumbnail: /assets/images/wordProject/1-1.png
 tag:
 - project
 - wordproject
@@ -28,25 +28,25 @@ description: Word Project #1
 일단 알라딘 보관함에서 리스트를 엑셀로 저장해온다. 캡쳐 당시엔 보관함에 331개의 책을 넣어두었다! 항상 느끼지만 세상은 넓고 인생은 짧고 갈 곳은 많고 읽을 책은 많다.
 
 <br>
-![1](http://pullingoff.github.io/assets/wordProject/1-1.png "Site:Aladin")
+![1](http://pullingoff.github.io/assets/images/wordProject/1-1.png "Site:Aladin")
 
 알라딘에선 보관함의 책 리스트를 '.xls'파일로 제공하고 있는데 이 확장자는 R에서 지원을 하지 않는 듯 해서, save as를 이용해 <span class="evidence">확장자를 '.xlsx'</span> 로 바꿔주었다. 사실 csv파일 쓰는게 제일 편한데 유니코드 인코딩 어쩌구 문제로 한글이 깨지길래 그냥 xlsx파일을 사용했다.
 
 <br><br>
 
-![](http://pullingoff.github.io/assets/wordProject/1-2.png "Organizing Excel Sheet")
+![](http://pullingoff.github.io/assets/images/wordProject/1-2.png "Organizing Excel Sheet")
 
 
 엑셀 파일을 열면 이런 식으로 간소한 설명이 적혀 있는데, 분석을 쉽게 하기 위해(<span class="evidence">첫 열을 header로 자동 지정하기 위해</span>) 엑셀 자체에서 1,2,3,4열을 지웠다.
 ​<br><br>
 
-​![](http://pullingoff.github.io/assets/wordProject/1-3.png)
+​![](http://pullingoff.github.io/assets/images/wordProject/1-3.png)
 
 
 요로코롬 분석을 시작해보자.
 <br><br>
 
-![](http://pullingoff.github.io/assets/wordProject/1-4.png)
+![](http://pullingoff.github.io/assets/images/wordProject/1-4.png)
 
 
 
@@ -55,7 +55,7 @@ description: Word Project #1
 전자책도 8권 정도가 포함되어있었는데, 아쉽지만 판형을 기준으로 그냥 다 빼버렸다.
 <br><br>
 ​
-![](http://pullingoff.github.io/assets/wordProject/1-5.png)
+![](http://pullingoff.github.io/assets/images/wordProject/1-5.png)
 
 
 이번 소프로젝트에서는 책 타이틀 column만 있으면 돼서 책 제목만 모아서 txt 파일을 만들어 그걸로 분석했다.
@@ -66,7 +66,7 @@ description: Word Project #1
 이 부분에서만 패키지가 4개가 쓰였다. 워드클라우드를 만들기 위해 설치한 패키지들도 있었는데 *R plots 창에서 한글이 깨져버리는 문제를 해결하지 못했다.*
 <br><br>
 
-​![](http://pullingoff.github.io/assets/wordProject/1-6.png)
+​![](http://pullingoff.github.io/assets/images/wordProject/1-6.png)
 
 
 
@@ -82,7 +82,7 @@ Drum roll please!
 
 <b> 이런 결과가 나옵니다 </b>
 <br>
-​![](http://pullingoff.github.io/assets/wordProject/1-7.png)
+​![](http://pullingoff.github.io/assets/images/wordProject/1-7.png)
 
 ​
 
@@ -105,7 +105,7 @@ Drum roll please!
 짜잔!
 
 
-​![](http://pullingoff.github.io/assets/wordProject/1-8.png)
+​![](http://pullingoff.github.io/assets/images/wordProject/1-8.png)
 
 
 

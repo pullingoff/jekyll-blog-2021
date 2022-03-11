@@ -2,7 +2,7 @@
 title: "깃허브 페이지 도메인명에 브랜치가 들어가서 왜 이러나 했더니..."
 layout: post
 date: 2022-02-05 08:00
-thumbnail: /assets/images/git.jpeg
+thumbnail: /assets/images/blog/git.jpeg
 tag:
 - blog
 - github
@@ -17,9 +17,9 @@ description: 너무 바보같은 실수입니다 ㅜㅜ
 
 근데 나는 왜??!!!?!??! github.io 뒤에 레포 이름이 붙나했더니..
 
-![](/assets/images/gh1.png)
+![](/assets/images/blog/gh1.png)
 예전에 깃허브 페이지를 만든 적이 있어서 그런건가 했음
-![](/assets/images/gh2.png)
+![](/assets/images/blog/gh2.png)
 근데 repo delete 삭제하다가 봄... hailey 를 haliey로 썼었다.............................ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ
 바보바보바보
 

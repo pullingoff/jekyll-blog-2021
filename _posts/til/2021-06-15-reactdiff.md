@@ -2,7 +2,7 @@
 title: "[React] 함수형, 클래스형 컴포넌트의 차이와 리액트 개발 시 주의할 점"
 layout: post
 date: 2021-06-15 08:00
-thumbnail: /assets/images/reactdiff.png
+thumbnail: /assets/images/blog/reactdiff.png
 tag:
 - react
 nav-class: til

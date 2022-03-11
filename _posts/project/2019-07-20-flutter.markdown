@@ -2,7 +2,7 @@
 title: "구글 개발자그룹 'Try! Flutter' 이벤트에 오거나이저로 참여했다."
 layout: post
 date: 2019-07-20 01:20
-thumbnail: /assets/images/tf0.jpeg
+thumbnail: /assets/images/project/tf0.jpeg
 tag:
 - project
 - Google
@@ -19,15 +19,15 @@ description: Try! Flutter Banner Design
 **Event information: <a href="https://festa.io/events/373">Click!</a>**
 
 
-![]({{ site.baseurl }}/assets/images/tf0.jpeg)  
+![]({{ site.baseurl }}/assets/images/project/tf0.jpeg)  
 **Festa Banner / 1600x900 px, RGB/ Photoshop and Illustrator**
 
 
-![Main Banner]({{ site.baseurl }}/assets/images/tf1.jpeg)  
+![Main Banner]({{ site.baseurl }}/assets/images/project/tf1.jpeg)  
 **Main Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator**  
 
 
-![]({{ site.baseurl }}/assets/images/tf2.jpeg)
+![]({{ site.baseurl }}/assets/images/project/tf2.jpeg)
 
 **Location Banner / 600x1800 mm, CMYK/ Photoshop and Illustrator**
 
