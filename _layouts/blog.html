@@ -16,9 +16,13 @@ layout: default
    <li class="postRow">  
     <div class="imgWrapper">
         {% if post.thumbnail %}
-            <img src="{{ post.thumbnail }}"/>
+            <a href="{{post.url}}">
+                <img src="{{ post.thumbnail }}"/>
+            </a>
         {% else %}
-            <img src="{{ site.baseurl }}/assets/images/cod2.jpeg"/>
+            <a href="{{post.url}}"
+                <img src="{{ site.baseurl }}/assets/images/cod2.jpeg"/>
+            </a>
         {% endif %}
     </div>
     <div class="titleWrapper">
